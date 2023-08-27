@@ -1,3 +1,25 @@
+# Приклади написання commita на проекті
+
+## Використовуємо такі типи коммітів:
+
+- Feat(HTML) Added new functionality
+
+- Fix(JS) Error correction
+
+- Perf(JPEG) Changes to improve performance
+
+- Refactor(PNG) Code edits without fixing bugs or adding new features
+
+- Revert(JS) Rollback to previous commits
+
+- Style(SCSS) Code style edits
+
+- Docs(README) Documentation update
+
+Вибираємо зі списку опис комміту який підходить під ваше завдання, у дужках
+пишемо файл у якому працювали, а в тілі коміта розписуємо що проробили (змінили)
+і тд
+
 # Vanilla App Template
 
 Цей проект було створено за допомогою Vite. Для знайомства та налаштування
