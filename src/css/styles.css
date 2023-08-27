@@ -1,0 +1,18 @@
+/* FOLDER BASE */
+@import url('./base/colors.css');
+@import url('./base/cursors.css');
+
+/* FOLDER UTILS */
+@import url('./utils/command.css');
+@import url('./utils/reset.css');
+
+/* FOLDER LAYOUTS */
+@import url('./layout/01-header.css');
+@import url('./layout/02-hero.css');
+@import url('./layout/03-about.css');
+@import url('./layout/04-lessons.css');
+@import url('./layout/05-proposal.css');
+@import url('./layout/06-teachers.css');
+@import url('./layout/07-leave.css');
+@import url('./layout/08-reviews.css');
+@import url('./layout/09-footer');
