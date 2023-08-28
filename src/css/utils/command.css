@@ -1,6 +1,11 @@
 body {
   font-family: 'Manrope', sans-serif;
   font-style: normal;
+  background: var(--color-white);
+}
+
+section {
+  padding-bottom: 80px;
 }
 
 .container {
