@@ -20,6 +20,9 @@
 пишемо файл у якому працювали, а в тілі коміта розписуємо що проробили (змінили)
 і тд
 
+- `Look at`
+  [**Layout Figma**](https://www.figma.com/file/MrdZUmIfeT1bKd8u5GWLRt/English-Excellence-2.0?type=design&node-id=0-1&mode=design&t=4jJkOR8gcvoKgG1k-0)
+
 # Vanilla App Template
 
 Цей проект було створено за допомогою Vite. Для знайомства та налаштування
