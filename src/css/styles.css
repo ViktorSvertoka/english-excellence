@@ -1,6 +1,7 @@
 /* FOLDER BASE */
 @import url('./base/colors.css');
 @import url('./base/cursors.css');
+@import url('./base/scrollbar.css');
 
 /* FOLDER UTILS */
 @import url('./utils/command.css');
