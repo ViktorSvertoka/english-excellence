@@ -1,14 +1,11 @@
 .hero {
-  padding: 0 20px;
-}
-.hero {
+  margin: 0 auto;
   position: relative;
   background-color: #f3f5f6;
   width: 100%;
   padding-top: 425px;
   padding-bottom: 164px;
   text-align: center;
-  margin: 0 20px;
   background-image: linear-gradient(
       114deg,
       rgba(0, 0, 0, 0.4) 0%,
@@ -20,9 +17,10 @@
   background-position: center;
   border-radius: 16px;
 }
-@media screen and (min-resolution: 192dpi) and (max-width: 767px),
-  screen and (min-resolution: 2dppx) and (max-width: 767px),
-  screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
+
+@media screen and (min-resolution: 192dpi),
+  screen and (min-resolution: 2dppx),
+  screen and (min-device-pixel-ratio: 2) {
   .hero {
     background-image: linear-gradient(
         114deg,
@@ -32,13 +30,14 @@
       url('../../img/hero-mobile-2x.jpg');
   }
 }
+
 @media screen and (min-width: 768px) {
   .hero {
+    width: 704px;
     padding-top: 260px;
     padding-bottom: 295px;
     text-align: start;
     border-radius: 30px;
-    margin: 0 32px;
     background-image: linear-gradient(
         114deg,
         rgba(0, 0, 0, 0.4) 0%,
@@ -46,25 +45,26 @@
       ),
       url('../../img/hero-tablet-1x.jpg');
   }
-}
-@media screen and (min-resolution: 192dpi) and (min-width: 768px),
-  screen and (min-resolution: 2dppx) and (min-width: 768px),
-  screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
-  .hero {
-    background-image: linear-gradient(
-        114deg,
-        rgba(0, 0, 0, 0.4) 0%,
-        rgba(0, 0, 0, 0) 100%
-      ),
-      url('../../img/hero-tablet-2x.jpg');
+
+  @media screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx),
+    screen and (min-device-pixel-ratio: 2) {
+    .hero {
+      background-image: linear-gradient(
+          114deg,
+          rgba(0, 0, 0, 0.4) 0%,
+          rgba(0, 0, 0, 0) 100%
+        ),
+        url('../../img/hero-tablet-2x.jpg');
+    }
   }
 }
+
 @media screen and (min-width: 1280px) {
   .hero {
     width: 1152px;
     padding-top: 164px;
     padding-bottom: 164px;
-    margin: 0 64px;
     background-image: linear-gradient(
         114deg,
         rgba(0, 0, 0, 0.4) 0%,
@@ -72,29 +72,21 @@
       ),
       url('../../img/hero-desktop-1x.jpg');
   }
-}
-@media screen and (min-resolution: 192dpi) and (min-width: 1280px),
-  screen and (min-resolution: 2dppx) and (min-width: 1280px),
-  screen and (min-device-pixel-ratio: 2) and (min-width: 1280px) {
-  .hero {
-    background-image: linear-gradient(
-        114deg,
-        rgba(0, 0, 0, 0.4) 0%,
-        rgba(0, 0, 0, 0) 100%
-      ),
-      url('../../img/hero-desktop-2x.jpg');
+
+  @media screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx),
+    screen and (min-device-pixel-ratio: 2) {
+    .hero {
+      background-image: linear-gradient(
+          114deg,
+          rgba(0, 0, 0, 0.4) 0%,
+          rgba(0, 0, 0, 0) 100%
+        ),
+        url('../../img/hero-desktop-2x.jpg');
+    }
   }
 }
-@media screen and (min-width: 768) {
-  .hero {
-    width: 704px;
-  }
-}
-@media screen and (min-width: 1280) {
-  .hero {
-    width: 1152px;
-  }
-}
+
 .hero__title {
   max-width: 295px;
   color: #fff;
@@ -105,9 +97,11 @@
   line-height: 1.05;
   margin-bottom: 40px;
 }
+
 .hero__title-current {
   color: #bee8cc;
 }
+
 @media screen and (min-width: 768) {
   .hero__title {
     max-width: 488px;
@@ -116,11 +110,13 @@
     margin-bottom: 32px;
   }
 }
+
 @media screen and (min-width: 1280) {
   .hero__title {
     max-width: 564px;
   }
 }
+
 .hero__button {
   display: flex;
   width: 295px;
@@ -130,6 +126,7 @@
   border-radius: 12px;
   background: #4dc274;
 }
+
 .hero__button-text {
   color: #fff;
   font-family: Manrope;
@@ -138,6 +135,7 @@
   font-weight: 700;
   line-height: 1.71;
 }
+
 @media screen and (min-width: 768) {
   .hero__button {
     width: 306px;
@@ -150,6 +148,7 @@
     line-height: 1.55;
   }
 }
+
 @media screen and (min-width: 1280) {
 }
 
@@ -167,6 +166,7 @@
   transform: rotate(-90deg);
   flex-shrink: 0;
 }
+
 .hero__button-round:active {
   background-color: #4dc274;
 }
@@ -174,6 +174,7 @@
 .hero__button-icons {
   fill: #4dc274;
 }
+
 .hero__button-icons:active {
   fill: #ffffff;
 }
