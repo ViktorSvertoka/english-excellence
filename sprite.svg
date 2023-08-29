@@ -3,14 +3,19 @@
 <symbol id="icon-scroll-down" viewBox="0 0 32 32">
 <path fill="#4dc274" style="fill: var(--color1, #4dc274)" d="M16.947 17.867c-0.124 0.125-0.271 0.224-0.434 0.292s-0.337 0.103-0.513 0.103c-0.176 0-0.35-0.035-0.513-0.103s-0.31-0.167-0.434-0.292l-6.107-6.12c-0.124-0.125-0.271-0.224-0.434-0.292s-0.337-0.103-0.513-0.103c-0.176 0-0.35 0.035-0.513 0.103s-0.31 0.167-0.434 0.292c-0.248 0.25-0.388 0.588-0.388 0.94s0.139 0.69 0.388 0.94l6.12 6.12c0.75 0.749 1.767 1.17 2.827 1.17s2.077-0.421 2.827-1.17l6.12-6.12c0.246-0.248 0.385-0.584 0.387-0.933 0.001-0.175-0.033-0.349-0.099-0.512s-0.164-0.31-0.288-0.435c-0.124-0.125-0.271-0.224-0.434-0.292s-0.337-0.103-0.513-0.103c-0.176 0-0.35 0.035-0.513 0.103s-0.31 0.167-0.434 0.292l-6.107 6.12z"></path>
 </symbol>
+
 <symbol id="icon-x-close" viewBox="0 0 32 32">
 <path fill="none" stroke="#fff" style="stroke: var(--color2, #fff)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.4" d="M24 8l-16 16"></path>
 <path fill="none" stroke="#fff" style="stroke: var(--color2, #fff)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.4" d="M8 8l16 16"></path>
 </symbol>
+
 <symbol id="icon-menu" viewBox="0 0 46 32">
 <path stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="4" stroke-width="3.4286" d="M8.671 5.074h35.329"></path>
 <path stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="4" stroke-width="3.4286" d="M8.671 24.468h35.329"></path>
 <path stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="4" stroke-width="3.4286" d="M19.602 14.771h24.398"></path>
+</symbol>
+<symbol id="icon-menu-mini" viewBox="0 0 45 32">
+<path stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="4" stroke-width="4.1739" d="M8.863 4.701h33.572M8.863 24.095h33.572M19.509 14.397h22.926"></path>
 </symbol>
 <symbol id="icon-youtube" viewBox="0 0 32 32">
 <path d="M24.24 6c-1.36-0.080-4.16-0.16-8.4-0.16h-0.56c-4.080 0-6.8 0.080-8.16 0.24-1.84 0.16-3.12 0.64-3.84 1.28-0.64 0.56-1.12 1.6-1.28 2.96-0.080 0.88-0.16 2.72-0.16 5.52v0.4c0 2.64 0.080 4.48 0.24 5.36 0.24 1.28 0.64 2.24 1.44 2.8 0.8 0.64 2.16 1.040 4.080 1.2 1.36 0.080 4.16 0.16 8.4 0.16h0.56c4.080 0 6.8-0.080 8.16-0.24 1.84-0.16 3.12-0.64 3.84-1.28 0.64-0.56 1.12-1.6 1.28-2.96 0.080-0.88 0.16-2.72 0.16-5.52v-0.4c0-2.64-0.080-4.48-0.24-5.36-0.24-1.28-0.64-2.24-1.44-2.8-0.8-0.64-2.16-1.040-4.080-1.2zM21.12 15.84l-8.8 5.28v-10.56l8.8 5.28z"></path>

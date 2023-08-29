@@ -16,37 +16,39 @@
     />
     <title>Vanilla App Template</title>
     
-    <script type="module" crossorigin src="/english-excellence/assets/index-19c60331.js"></script>
-    <link rel="stylesheet" href="/english-excellence/assets/index-93053b9d.css">
+    <script type="module" crossorigin src="/english-excellence/assets/index-a826318e.js"></script>
+    <link rel="stylesheet" href="/english-excellence/assets/index-4d197cc8.css">
   </head>
   <body>
     <header>
       <section class="header">
-  <div class="container">
-    <!-- Logo -->
-
+  <div class="header-container">
+    <!-- Navigation -->
     <a href="" class="header__logo"
       >english<span class="header__logo-span">exelence</span>.</a
     >
-
-    <!-- Navigation -->
-
     <nav class="header__nav">
+      <!-- Logo -->
+
       <ul class="header__nav-list list">
         <li class="header__nav-item">
-          <a class="header__nav-link link" href="#About us">About us</a>
+          <a class="header__nav-link-one link" href="#About us">About us</a>
         </li>
         <li class="header__nav-item">
-          <a class="header__nav-link link" href="#Our lessons">Our lessons</a>
+          <a class="header__nav-link-two link" href="#Our lessons"
+            >Our lessons</a
+          >
         </li>
         <li class="header__nav-item">
-          <a class="header__nav-link link" href="#Teachers">Teachers</a>
+          <a class="header__nav-link-three link" href="#Teachers">Teachers</a>
         </li>
         <li class="header__nav-item">
-          <a class="header__nav-link link" href="#Reviews">Reviews</a>
+          <a class="header__nav-link-four link" href="#Reviews">Reviews</a>
         </li>
         <li class="header__nav-item">
-          <a class="header__nav-link link" href="#Contact Us">Contact Us</a>
+          <a class="header__nav-link-five link" href="#Contact Us"
+            >Contact Us</a
+          >
         </li>
       </ul>
     </nav>
@@ -63,7 +65,7 @@
           aria-label="facebook icon"
         >
           <svg class="header__socials-icon" width="28" height="28">
-            <use href="/english-excellence/assets/sprite-caa5b243.svg#icon-facebook"></use>
+            <use href="./sprite.svg#icon-facebook"></use>
           </svg>
         </a>
       </li>
@@ -76,7 +78,7 @@
           aria-label="instagram icon"
         >
           <svg class="header__socials-icon" width="28" height="28">
-            <use href="/english-excellence/assets/sprite-caa5b243.svg#icon-instagram"></use>
+            <use href="./sprite.svg#icon-instagram"></use>
           </svg>
         </a>
       </li>
@@ -89,7 +91,7 @@
           aria-label="youtube icon"
         >
           <svg class="header__socials-icon" width="28" height="28">
-            <use href="/english-excellence/assets/sprite-caa5b243.svg#icon-youtube"></use>
+            <use href="./sprite.svg#icon-youtube"></use>
           </svg>
         </a>
       </li>
@@ -99,94 +101,107 @@
 
     <button
       class="menu-open__button js-open-menu"
+      type="button"
       aria-expanded="false"
       aria-controls="mobile-menu"
+      menu-open-btn
     >
-      <svg width="32" height="23" stroke="var(--color-black)">
-        <use href="/english-excellence/assets/sprite-caa5b243.svg#icon-menu"></use>
+      <svg
+        class="menu-open__icon"
+        width="32"
+        height="23"
+        stroke="var(--color-black)"
+        aria-controls="mobile-menu"
+        aria-expanded="false"
+      >
+        <use
+          class="menu-open__use"
+          xlink:href="./sprite.svg#icon-menu-mini"
+        ></use>
       </svg>
     </button>
   </div>
 
   <!-- Mobile Menu container -->
+  <div class="backdrop is-hidden" menu-backdrop>
+    <div class="menu-container js-menu-container" id="mobile-menu">
+      <button
+        type="button"
+        class="menu-close__button js-close-menu"
+        menu-close-btn
+      >
+        <svg class="menu-close__icon" width="32" height="32">
+          <use href="./sprite.svg#icon-x-close"></use>
+        </svg>
+      </button>
 
-  <div class="menu-container js-menu-container" id="mobile-menu">
-    <button class="menu-close__button js-close-menu">
-      <svg class="menu-close__icon" width="28" height="28">
-        <use href="/english-excellence/assets/sprite-caa5b243.svg#icon-x-close"></use>
-      </svg>
-    </button>
+      <!-- Mobile Menu Navigation  -->
 
-    <!-- Mobile Menu Navigation  -->
+      <nav class="menu__nav">
+        <ul class="menu__nav-list list">
+          <li class="menu__nav-item">
+            <a class="menu__nav-link link" href="#About us">About us</a>
+          </li>
+          <li class="menu__nav-item">
+            <a class="menu__nav-link link" href="#Our lessons">Our lessons</a>
+          </li>
+          <li class="menu__nav-item">
+            <a class="menu__nav-link link" href="#Teachers">Teachers</a>
+          </li>
+          <li class="menu__nav-item">
+            <a class="menu__nav-link link" href="#Reviews">Reviews</a>
+          </li>
+          <li class="menu__nav-item">
+            <a class="menu__nav-link link" href="#Contact Us">Contact Us</a>
+          </li>
+        </ul>
+      </nav>
 
-    <nav class="mobile-menu__nav">
-      <ul class="mobile-menu__nav-list list">
-        <li class="mobile-menu__nav-item">
-          <a class="mobile-menu__nav-link link" href="#About us">About us</a>
-        </li>
-        <li class="mobile-menu__nav-item">
-          <a class="mobile-menu__nav-link link" href="#Our lessons"
-            >Our lessons</a
+      <!-- Mobile Menu Socials -->
+
+      <ul class="menu__socials-list list">
+        <li class="menu__socials-item">
+          <a
+            class="menu__socials-link link"
+            href="https://www.facebook.com/goITclub/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="facebook icon"
           >
+            <svg class="menu__socials-icon" width="28" height="28">
+              <use href="./sprite.svg#icon-facebook"></use>
+            </svg>
+          </a>
         </li>
-        <li class="mobile-menu__nav-item">
-          <a class="mobile-menu__nav-link link" href="#Teachers">Teachers</a>
-        </li>
-        <li class="mobile-menu__nav-item">
-          <a class="mobile-menu__nav-link link" href="#Reviews">Reviews</a>
-        </li>
-        <li class="mobile-menu__nav-item">
-          <a class="mobile-menu__nav-link link" href="#Contact Us"
-            >Contact Us</a
+
+        <li class="menu__socials-item">
+          <a
+            class="menu__socials-link link"
+            href="https://www.instagram.com/goitclub/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="instagram icon"
           >
+            <svg class="menu__socials-icon" width="28" height="28">
+              <use href="./sprite.svg#icon-instagram"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="menu__socials-item">
+          <a
+            class="menu__socials-link link"
+            href="https://www.youtube.com/c/GoIT"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="youtube icon"
+          >
+            <svg class="menu__socials-icon" width="28" height="28">
+              <use href="./sprite.svg#icon-youtube"></use>
+            </svg>
+          </a>
         </li>
       </ul>
-    </nav>
-
-    <!-- Mobile Menu Socials -->
-
-    <ul class="mobile-menu__socials-list list">
-      <li class="mobile-menu__socials-item">
-        <a
-          class="mobile-menu__socials-link link"
-          href="https://www.facebook.com/goITclub/"
-          target="_blank"
-          rel="noopener noreferrer"
-          aria-label="facebook icon"
-        >
-          <svg class="mobile-menu__socials-icon" width="28" height="28">
-            <use href="/english-excellence/assets/sprite-caa5b243.svg#icon-facebook"></use>
-          </svg>
-        </a>
-      </li>
-
-      <li class="mobile-menu__socials-item">
-        <a
-          class="mobile-menu__socials-link link"
-          href="https://www.instagram.com/goitclub/"
-          target="_blank"
-          rel="noopener noreferrer"
-          aria-label="instagram icon"
-        >
-          <svg class="mobile-menu__socials-icon" width="28" height="28">
-            <use href="/english-excellence/assets/sprite-caa5b243.svg#icon-instagram"></use>
-          </svg>
-        </a>
-      </li>
-      <li class="mobile-menu__socials-item">
-        <a
-          class="mobile-menu__socials-link link"
-          href="https://www.youtube.com/c/GoIT"
-          target="_blank"
-          rel="noopener noreferrer"
-          aria-label="youtube icon"
-        >
-          <svg class="mobile-menu__socials-icon" width="28" height="28">
-            <use href="/english-excellence/assets/sprite-caa5b243.svg#icon-youtube"></use>
-          </svg>
-        </a>
-      </li>
-    </ul>
+    </div>
   </div>
 </section>
 
