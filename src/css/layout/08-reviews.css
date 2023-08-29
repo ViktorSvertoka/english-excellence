@@ -8,8 +8,16 @@
   font-weight: 700;
   line-height: 1.13; /* 112.5% */
   letter-spacing: -0.64px;
-  width: 335px;
+  width: 100%;
   margin-bottom: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .reviews__title {
+    font-size: 40px;
+    line-height: 1.2; /* 120% */
+    letter-spacing: -0.8px;
+  }
 }
 
 .reviews__subtitle {
@@ -18,11 +26,29 @@
   font-size: 14px;
   font-weight: 400;
   line-height: 1.71; /* 171.429% */
-  width: 335px;
-  margin-bottom: 40px;
+  width: 100%;
+  margin: 0 auto 40px;
+}
+
+@media screen and (min-width: 768px) {
+  .reviews__subtitle {
+    width: 586px;
+    margin-bottom: 64px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .reviews__subtitle {
+    font-size: 18px;
+    line-height: 1.67; /* 166.667% */
+    width: 647px;
+  }
 }
 
 .reviews__list {
+  display: flex;
+  gap: 32px;
+  margin: 0 auto;
 }
 
 .reviews__item {
@@ -34,12 +60,32 @@
   padding: 20px;
 }
 
-.reviews__hidden-1 {
-  display: none;
+@media screen and (min-width: 768px) {
+  .reviews__item {
+    width: 336px;
+    height: 326px;
+    border-radius: 30px;
+    padding: 32px 16px 0 16px;
+  }
 }
 
-.reviews__hidden-2 {
-  display: none;
+@media screen and (min-width: 1280px) {
+  .reviews__item {
+    width: 320px;
+    height: 326px;
+  }
+}
+
+@media screen and (max-width: 1279px) {
+  .reviews__hidden-2 {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .reviews__hidden-1 {
+    display: none;
+  }
 }
 
 .reviews__wrapper {
@@ -55,10 +101,18 @@
   margin-bottom: 20px;
 }
 
-.reviews__image {
+@media screen and (min-width: 768px) {
+  .reviews__wrapper {
+    width: 304px;
+    border-radius: 15px;
+    padding: 14px 0 14px 16px;
+  }
 }
 
-.reviews__wrapp {
+@media screen and (min-width: 1280px) {
+  .reviews__wrapper {
+    width: 288px;
+  }
 }
 
 .reviews__headline {
@@ -83,4 +137,11 @@
   line-height: 1.71; /* 171.429% */
   width: 267px;
   margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) {
+  .reviews__text {
+    font-size: 16px;
+    line-height: 1.5; /* 150% */
+  }
 }
