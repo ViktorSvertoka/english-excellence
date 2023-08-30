@@ -91,6 +91,12 @@
 
 @media screen and (min-width: 768px) {
   .footer-nav {
+    margin-bottom: 110px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .footer-nav {
     margin-bottom: 64px;
   }
 }
@@ -128,6 +134,7 @@
 }
 
 .footer__icon-wrapper {
+  position: relative;
   margin-bottom: 40px;
 }
 
@@ -136,11 +143,18 @@
   align-items: center;
   justify-content: start;
   gap: 12px;
+  margin-bottom: 40px;
 }
 
 .footer__icon-item {
   width: 40px;
   height: 40px;
+}
+
+.footer__dev-titans-wrap {
+  position: absolute;
+  right: 0;
+  bottom: 0;
 }
 
 .footer__icon-link {
@@ -191,6 +205,7 @@
   .footer__text-wrapper {
     flex-direction: column;
     text-align: start;
+
     gap: 14px;
     margin-top: 20px;
   }
@@ -199,6 +214,7 @@
 @media screen and (min-width: 768px) {
   .footer__text-wrapper {
     justify-content: space-between;
+    align-items: center;
     margin-top: 16px;
   }
 }

@@ -34,7 +34,7 @@
   padding: 25px 15px 20px;
   visibility: visible;
   opacity: 1;
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: var(--color-green-pseudo);
   border-radius: 10px;
   box-shadow: 0 28px 42px rgba(0, 0, 0, 0.38), 0 20px 20px rgba(0, 0, 0, 0.33);
 }
@@ -61,25 +61,25 @@
   justify-content: center;
   align-items: center;
   position: absolute;
-  top: 5px;
-  right: 5px;
+  top: 10px;
+  right: 10px;
   padding: 0px;
   border: none;
   background-color: transparent;
   border-radius: 50%;
   cursor: pointer;
-  color: var(--color-black);
+  stroke: var(--color-black);
 }
 
 @media screen and (min-width: 768px) {
   .team__modal-close-btn {
-    top: 10px;
-    right: 10px;
+    top: 20px;
+    right: 20px;
   }
 }
 
 .team__modal-close-btn:hover {
-  color: var(--color-green);
+  stroke: var(--color-green);
 }
 
 .team__modal-close-icon {
@@ -91,6 +91,7 @@
   text-transform: uppercase;
   color: var(--color-black);
   font-size: 24px;
+
   margin-bottom: 20px;
 }
 
@@ -105,6 +106,7 @@
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 5px;
+  background-color: var(--color-light-green);
   color: var(--color-white);
   position: relative;
   border-radius: 10px;
