@@ -91,8 +91,8 @@
 }
 
 .leave__form-input {
-  /* width: 100%; */
-  min-width: 335px;
+  width: 100%;
+  /* min-width: 335px; */
   height: 50px;
   padding: 16px 18px;
 
@@ -201,6 +201,13 @@ width: 18px;
 
 }
 
+@media screen and (min-width: 768px) {
+  .leave__radio-label::before {
+    width: 20px;
+    height: 20px;
+  }
+} 
+
 .leave__radio-label::after {
   content: "";
   display: block;
@@ -221,43 +228,20 @@ width: 18px;
 
 }
 
+@media screen and (min-width: 768px) {
+  .leave__radio-label::after {
+    width: 12px;
+    height: 12px;
+  }
+}
 .leave__radio-input:checked + .leave__radio-label::before{
   border-color:var(--color-green);
+
 }
 
 .leave__radio-input:checked + .leave__radio-label::after {
 opacity:1;
 }
-
-/* .leave__radio-input {
-  width: 18px;
-  height: 18px;
-  border: 2px solid rgba(18, 20, 23, 0.2);
-  cursor: pointer;
-} */
-
-/* @media screen and (min-width: 768px) {
-  .leave__radio-input {
-    width: 20px;
-    height: 20px;
-  }
-} */
-
-/* .leave__radio-label {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-
-  text-align: center;
-  font-size: 14px;
-
-  font-weight: 400;
-  line-height: 1.71;
-  letter-spacing: -0.02em;
-
-  color: var(--color-black);
-  cursor: pointer;
-} */
 
 /* ==== FORM BTN  ==== */
 
