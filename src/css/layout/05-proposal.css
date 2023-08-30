@@ -1,3 +1,14 @@
-.header {
-  padding: 20px 0;
+.proposal {
+  margin: 0 auto;
+  position: relative;
+  width: 100%;
+  padding-top: 40px;
+  padding-bottom: 41px;
+  border-radius: 16px;
+  background: linear-gradient(80deg, #4DC274 0%, #BEE8CC 100%);
+}
+
+.proposal-item::before {
+  content: url();
+
 }
