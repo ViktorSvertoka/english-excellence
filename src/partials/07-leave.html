@@ -1,3 +1,111 @@
-<section>
-  <div class="container">Hello world!</div>
+<section class="leave__section">
+  <div class="leave__container container">
+    <h1 class="leave__title">Leave an application</h1>
+    <p class="leave__text">
+      Please use the form below to contact us. Enter your name, email, and
+      message and we'll get back to you shortly.
+    </p>
+    <div class="leave__wrapper">
+      <div class="leave__card-wrapper">
+        <div class="leave__text-wrapper">
+          <p class="leave__card-big-text">1000</p>
+          <p class="leave__card-text">
+            of our online English language lessons! This journey has been full
+            of discovery, growth and unforgettable moments, and we are happy to
+            share this joyful event with you.
+          </p>
+        </div>
+      </div>
+      <form class="leave__form">
+        <div class="leave__input-group">
+          <label class="leave__form-label">
+            <input
+              class="leave__form-input"
+              type="text"
+              name="user-name"
+              placeholder="Name"
+              pattern="[a-zA-Zа-яА-ЯіІїЇєЄґҐʼ]+"
+              title="Oleksii"
+              required
+            />
+          </label>
+          <label class="leave__form-label">
+            <input
+              class="leave__form-input"
+              type="email"
+              name="user-email"
+              placeholder="Email"
+              required
+            />
+          </label>
+          <label class="leave__form-label">
+            <input
+              class="leave__form-input"
+              type="tel"
+              name="user-phone"
+              placeholder="Phone"
+              pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
+              title="xxx-xxx-xx-xx"
+              required
+            />
+          </label>
+          <label class="leave__form-label">
+            <textarea
+              class="leave__form-input teaxtarea-input"
+              name="user-comment"
+              placeholder="Comment"
+              rows="4"
+            ></textarea>
+          </label>
+        </div>
+        <fieldset class="leave__radio-group">
+          <legend class="leave__radio-group-title">Choose a teacher</legend>
+          <div class="leave__radio">
+            <input
+              class="leave__radio-input"
+              type="radio"
+              name="teacher"
+              value="maria"
+              checked
+            />
+            <label class="leave__radio-label">Maria</label>
+          </div>
+
+          <div class="leave__radio">
+            <input
+              class="leave__radio-input"
+              type="radio"
+              name="teacher"
+              value="artem"
+            />
+            <label class="leave__radio-label">Artem</label>
+          </div>
+          <label class="leave__radio-label">
+            <input
+              class="leave__radio-input"
+              type="radio"
+              name="teacher"
+              value="ilona"
+            />
+            Ilona
+          </label>
+          <label class="leave__radio-label">
+            <input
+              class="leave__radio-input"
+              type="radio"
+              name="teacher"
+              value="volodymyr"
+            />
+            Volodymyr
+          </label>
+        </fieldset>
+        <button class="leave__form-btn" type="submit">Send</button>
+        <p class="leave__form-policy">
+          By clicking on “Send” button, you agree to our
+          <a class="leave__form-policy-link" href="">Privacy Policy</a>, and
+          allow Promodo to use this information for marketing purposes.
+        </p>
+      </form>
+    </div>
+  </div>
 </section>
