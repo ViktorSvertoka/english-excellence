@@ -365,14 +365,6 @@
   }
 }
 
-/* @media (min-device-pixel-ratio: 2),
-(min-resolution: 192dpi),
-(min-resolution: 2dppx) {
-  .leave__card-wrapper {
-    background-image: url("../../img/form-leave-2x.png");
-  }
-} */
-
 .leave__card-big-text {
   margin-bottom: 8px;
   text-align: center;
