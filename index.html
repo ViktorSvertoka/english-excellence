@@ -16,8 +16,8 @@
     />
     <title>Vanilla App Template</title>
     
-    <script type="module" crossorigin src="/english-excellence/assets/index-d5a191cc.js"></script>
-    <link rel="stylesheet" href="/english-excellence/assets/index-b6e35062.css">
+    <script type="module" crossorigin src="/english-excellence/assets/index-72f5865f.js"></script>
+    <link rel="stylesheet" href="/english-excellence/assets/index-4f0a1a7a.css">
   </head>
   <body>
     <header>
@@ -444,7 +444,9 @@
 
       <section class="leave__section">
   <div class="leave__container container">
-    <h1 class="leave__title">Leave an application</h1>
+    <h1 class="leave__title">
+      Leave an <span class="title-span">application</span>
+    </h1>
     <p class="leave__text">
       Please use the form below to contact us. Enter your name, email, and
       message and we'll get back to you shortly.
@@ -462,45 +464,37 @@
       </div>
       <form class="leave__form">
         <div class="leave__input-group">
-          <label class="leave__form-label">
-            <input
-              class="leave__form-input"
-              type="text"
-              name="user-name"
-              placeholder="Name"
-              pattern="[a-zA-Zа-яА-ЯіІїЇєЄґҐʼ]+"
-              title="Oleksii"
-              required
-            />
-          </label>
-          <label class="leave__form-label">
-            <input
-              class="leave__form-input"
-              type="email"
-              name="user-email"
-              placeholder="Email"
-              required
-            />
-          </label>
-          <label class="leave__form-label">
-            <input
-              class="leave__form-input"
-              type="tel"
-              name="user-phone"
-              placeholder="Phone"
-              pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
-              title="xxx-xxx-xx-xx"
-              required
-            />
-          </label>
-          <label class="leave__form-label">
-            <textarea
-              class="leave__form-input teaxtarea-input"
-              name="user-comment"
-              placeholder="Comment"
-              rows="4"
-            ></textarea>
-          </label>
+          <input
+            class="leave__form-input"
+            type="text"
+            name="user-name"
+            placeholder="Name"
+            pattern="[a-zA-Zа-яА-ЯіІїЇєЄґҐʼ]+"
+            title="Oleksii"
+            required
+          />
+          <input
+            class="leave__form-input"
+            type="email"
+            name="user-email"
+            placeholder="Email"
+            required
+          />
+          <input
+            class="leave__form-input"
+            type="tel"
+            name="user-phone"
+            placeholder="Phone"
+            pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
+            title="xxx-xxx-xx-xx"
+            required
+          />
+          <textarea
+            class="leave__form-input teaxtarea-input"
+            name="user-comment"
+            placeholder="Comment"
+            rows="4"
+          ></textarea>
         </div>
         <fieldset class="leave__radio-group">
           <legend class="leave__radio-group-title">Choose a teacher</legend>
@@ -515,7 +509,6 @@
             />
             <label class="leave__radio-label" for="radio-Maria">Maria</label>
           </div>
-
           <div class="leave__radio">
             <input
               class="leave__radio-input"
