@@ -96,13 +96,14 @@
   font-weight: 700;
   line-height: 1.05;
   margin-bottom: 40px;
+  text-align: start;
 }
 
 .hero__title-current {
   color: #bee8cc;
 }
 
-@media screen and (min-width: 768) {
+@media screen and (min-width: 768px) {
   .hero__title {
     max-width: 488px;
     font-size: 60px;
@@ -111,7 +112,7 @@
   }
 }
 
-@media screen and (min-width: 1280) {
+@media screen and (min-width: 1280px) {
   .hero__title {
     max-width: 564px;
   }
@@ -125,6 +126,13 @@
   align-items: center;
   border-radius: 12px;
   background: #4dc274;
+  border: none;
+  transition: transform var(--transition-dur-and-func);
+}
+
+.hero__button:hover,
+.hero__button:focus {
+  transform: scale(1.1);
 }
 
 .hero__button-text {
@@ -136,12 +144,10 @@
   line-height: 1.71;
 }
 
-@media screen and (min-width: 768) {
+@media screen and (min-width: 768px) {
   .hero__button {
     width: 306px;
     height: 60px;
-    display: inline-flex;
-    padding: 16px 64px;
   }
   .hero__button-text {
     font-size: 18px;
@@ -149,32 +155,54 @@
   }
 }
 
-@media screen and (min-width: 1280) {
-}
-
 .hero__button-round {
   display: inline-block;
-  width: 48px;
-  height: 48px;
+  bottom: 14px;
+  right: 14px;
   background-color: #fff;
   border-radius: 50%;
   color: #ffffff;
   position: absolute;
-  bottom: 32px;
-  right: 32px;
   overflow: hidden;
-  transform: rotate(-90deg);
-  flex-shrink: 0;
+  border: none;
+  transition: transform var(--transition-dur-and-func);
 }
 
+@media screen and (min-width: 768px) {
+  .hero__button-round {
+    bottom: 32px;
+    right: 32px;
+    width: 48px;
+    height: 48px;
+  }
+}
 .hero__button-round:active {
   background-color: #4dc274;
 }
 
+.hero__button-round:hover,
+.hero__button-round:focus {
+  background-color: #4dc274;
+  transform: scale(1.5);
+}
+
 .hero__button-icons {
   fill: #4dc274;
+  transition: transform var(--transition-dur-and-func);
+}
+@media screen and (min-width: 768px) {
+  .hero__button-icons {
+    width: 24px;
+    height: 24px;
+  }
 }
 
 .hero__button-icons:active {
   fill: #ffffff;
+}
+
+.hero__button-icons:hover,
+.hero__button-icons:focus {
+  fill: #ffffff;
+  transform: scale(1.1);
 }
