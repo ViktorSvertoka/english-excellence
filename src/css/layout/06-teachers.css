@@ -1,3 +1,123 @@
-.header {
-  padding: 20px 0;
+
+.team {
+  padding-bottom: 80px;
+}
+
+@media screen and (min-width: 768px) {
+  .team {
+    padding-bottom: 100px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .team {
+    padding-bottom: 150px;
+  }
+}
+
+.team__title {
+  color: #121417;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 1.13;
+  text-align: center;
+  letter-spacing: -0.64px;
+  margin-bottom: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .team__title {
+    font-size: 40px;
+    line-height: 1.2;
+    letter-spacing: -0.8px;
+    margin-bottom: 64px;
+  }
+}
+
+.team__subtitle {
+  color: rgba(18, 20, 23, 0.50);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+@media screen and (min-width: 768px) {
+  .team__subtitle {
+    font-size: 18px;
+    line-height: 1.67;
+    margin-bottom: 64px;
+    width: 709px;
+  }
+}
+
+.team__list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+@media screen and (min-width: 768px) {
+  .team__list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 32px;
+    column-gap: 32px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .team__list {
+    flex-wrap: nowrap;
+    gap: 32px;
+  }
+}
+
+.team__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .team__item {
+    width: calc((100%-32px) / 2);
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .team__item {
+    width: calc((100%-72px) / 4);
+  }
+}
+.team__image {
+  object-position: center;
+  border-radius: 500px;
+}
+
+.team__wrapper {
+  margin-top: 16px;
+}
+
+.team__specialist {
+  color: #121417;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: -0.4px;
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.team__job-title {
+  color: rgba(18, 20, 23, 0.50);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  text-align: center;
 }

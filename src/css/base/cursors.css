@@ -1,2 +1,27 @@
 html {
+  cursor: url('..//../cursor-green&white.svg'), pointer;
+}
+
+a {
+  cursor: url('..//../cursor-black&green.svg'), pointer;
+}
+
+button {
+  cursor: url('..//../cursor-black&white.svg'), pointer;
+}
+
+a:hover {
+  cursor: url('..//../cursor-black&green.svg'), pointer;
+}
+
+button:hover {
+  cursor: url('..//../cursor-black&white.svg'), pointer;
+}
+
+svg:hover {
+  cursor: url('..//../cursor-black&green.svg'), pointer;
+}
+
+.cursors__btn:hover {
+  cursor: url('..//../cursor-black&white.svg'), pointer;
 }

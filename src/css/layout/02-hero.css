@@ -1,3 +1,208 @@
-.header {
-  padding: 20px 0;
+.hero {
+  margin: 0 auto;
+  position: relative;
+  background-color: #f3f5f6;
+  width: 100%;
+  padding-top: 425px;
+  padding-bottom: 164px;
+  text-align: center;
+  background-image: linear-gradient(
+      114deg,
+      rgba(0, 0, 0, 0.4) 0%,
+      rgba(0, 0, 0, 0) 100%
+    ),
+    url('../../img/hero-mobile-1x.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 16px;
+}
+
+@media screen and (min-resolution: 192dpi),
+  screen and (min-resolution: 2dppx),
+  screen and (min-device-pixel-ratio: 2) {
+  .hero {
+    background-image: linear-gradient(
+        114deg,
+        rgba(0, 0, 0, 0.4) 0%,
+        rgba(0, 0, 0, 0) 100%
+      ),
+      url('../../img/hero-mobile-2x.jpg');
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .hero {
+    width: 704px;
+    padding-top: 260px;
+    padding-bottom: 295px;
+    text-align: start;
+    border-radius: 30px;
+    background-image: linear-gradient(
+        114deg,
+        rgba(0, 0, 0, 0.4) 0%,
+        rgba(0, 0, 0, 0) 100%
+      ),
+      url('../../img/hero-tablet-1x.jpg');
+  }
+
+  @media screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx),
+    screen and (min-device-pixel-ratio: 2) {
+    .hero {
+      background-image: linear-gradient(
+          114deg,
+          rgba(0, 0, 0, 0.4) 0%,
+          rgba(0, 0, 0, 0) 100%
+        ),
+        url('../../img/hero-tablet-2x.jpg');
+    }
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .hero {
+    width: 1152px;
+    padding-top: 164px;
+    padding-bottom: 164px;
+    background-image: linear-gradient(
+        114deg,
+        rgba(0, 0, 0, 0.4) 0%,
+        rgba(0, 0, 0, 0) 100%
+      ),
+      url('../../img/hero-desktop-1x.jpg');
+  }
+
+  @media screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx),
+    screen and (min-device-pixel-ratio: 2) {
+    .hero {
+      background-image: linear-gradient(
+          114deg,
+          rgba(0, 0, 0, 0.4) 0%,
+          rgba(0, 0, 0, 0) 100%
+        ),
+        url('../../img/hero-desktop-2x.jpg');
+    }
+  }
+}
+
+.hero__title {
+  max-width: 295px;
+  color: #fff;
+  font-family: Manrope;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.05;
+  margin-bottom: 40px;
+  text-align: start;
+}
+
+.hero__title-current {
+  color: #bee8cc;
+}
+
+@media screen and (min-width: 768px) {
+  .hero__title {
+    max-width: 488px;
+    font-size: 60px;
+    line-height: 1.17;
+    margin-bottom: 32px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .hero__title {
+    max-width: 564px;
+  }
+}
+
+.hero__button {
+  display: flex;
+  width: 295px;
+  height: 52px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  background: #4dc274;
+  border: none;
+  transition: transform var(--transition-dur-and-func);
+}
+
+.hero__button:hover,
+.hero__button:focus {
+  transform: scale(1.1);
+}
+
+.hero__button-text {
+  color: #fff;
+  font-family: Manrope;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.71;
+}
+
+@media screen and (min-width: 768px) {
+  .hero__button {
+    width: 306px;
+    height: 60px;
+  }
+  .hero__button-text {
+    font-size: 18px;
+    line-height: 1.55;
+  }
+}
+
+.hero__button-round {
+  display: inline-block;
+  bottom: 14px;
+  right: 14px;
+  background-color: #fff;
+  border-radius: 50%;
+  color: #ffffff;
+  position: absolute;
+  overflow: hidden;
+  border: none;
+  transition: transform var(--transition-dur-and-func);
+}
+
+@media screen and (min-width: 768px) {
+  .hero__button-round {
+    bottom: 32px;
+    right: 32px;
+    width: 48px;
+    height: 48px;
+  }
+}
+.hero__button-round:active {
+  background-color: #4dc274;
+}
+
+.hero__button-round:hover,
+.hero__button-round:focus {
+  background-color: #4dc274;
+  transform: scale(1.5);
+}
+
+.hero__button-icons {
+  fill: #4dc274;
+  transition: transform var(--transition-dur-and-func);
+}
+@media screen and (min-width: 768px) {
+  .hero__button-icons {
+    width: 24px;
+    height: 24px;
+  }
+}
+
+.hero__button-icons:active {
+  fill: #ffffff;
+}
+
+.hero__button-icons:hover,
+.hero__button-icons:focus {
+  fill: #ffffff;
+  transform: scale(1.1);
 }
