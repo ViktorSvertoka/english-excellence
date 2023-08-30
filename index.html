@@ -16,8 +16,8 @@
     />
     <title>Vanilla App Template</title>
     
-    <script type="module" crossorigin src="/english-excellence/assets/index-6cf5ad9c.js"></script>
-    <link rel="stylesheet" href="/english-excellence/assets/index-ad9a8c56.css">
+    <script type="module" crossorigin src="/english-excellence/assets/index-da33938f.js"></script>
+    <link rel="stylesheet" href="/english-excellence/assets/index-bffa5bd6.css">
   </head>
   <body>
     <header>
@@ -438,8 +438,7 @@
   </div>
 </section>
 
-      
-<section class="leave__section">
+      <section class="leave__section">
   <div class="leave__container container">
     <h1 class="leave__title">Leave an application</h1>
     <p class="leave__text">
@@ -507,9 +506,10 @@
               type="radio"
               name="teacher"
               value="maria"
+              id="radio-Maria"
               checked
             />
-            <label class="leave__radio-label">Maria</label>
+            <label class="leave__radio-label" for="radio-Maria">Maria</label>
           </div>
 
           <div class="leave__radio">
@@ -518,27 +518,32 @@
               type="radio"
               name="teacher"
               value="artem"
+              id="radio-Artem"
             />
-            <label class="leave__radio-label">Artem</label>
+            <label class="leave__radio-label" for="radio-Artem">Artem</label>
           </div>
-          <label class="leave__radio-label">
+          <div class="leave__radio">
             <input
               class="leave__radio-input"
               type="radio"
               name="teacher"
               value="ilona"
+              id="radio-Ilona"
             />
-            Ilona
-          </label>
-          <label class="leave__radio-label">
+            <label class="leave__radio-label" for="radio-Ilona">Ilona</label>
+          </div>
+          <div class="leave__radio">
             <input
               class="leave__radio-input"
               type="radio"
               name="teacher"
               value="volodymyr"
+              id="radio-input"
             />
-            Volodymyr
-          </label>
+            <label class="leave__radio-label" for="radio-input"
+              >Volodymyr</label
+            >
+          </div>
         </fieldset>
         <button class="leave__form-btn" type="submit">Send</button>
         <p class="leave__form-policy">
