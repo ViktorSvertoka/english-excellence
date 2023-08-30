@@ -1,3 +1,87 @@
 .header {
   padding: 20px 0;
 }
+.about__section {
+  padding-top: 80px;
+}
+/* .about__title {
+  margin-bottom: 16px;
+  text-align: center;
+  font-size: 32px;
+  line-height: 1.125; 
+  letter-spacing: -0.02em;
+  color: var(--color-black);
+  }
+  .about__inner {
+    position: relative;
+  }
+  .about__inner::after {
+  position: absolute;
+  bottom: 4px;
+  left: 0;
+  content: '';
+  z-index: -1;
+  width: 100%;
+  height: 12px;
+  border-radius: 8px;
+  background-color: var(--color-green-pseudo);
+  } */
+  .about__subtitle {
+  margin-bottom: 40px;
+  text-align: center;
+  font-size: 14px;
+  line-height: 1.7; /* 171.429% */
+  color: rgba(18, 20, 23, 0.50);
+  }
+  .about__list {
+    list-style: none;
+    counter-reset: cardCount;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+  .about__item {  
+    width: 100%;
+    border-radius: 16px;
+  background-color: var(--color-grey);
+  }
+  .about__container {
+    padding: 32px;
+  }
+  .about__text {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.33; /* 133.333% */
+  letter-spacing: -0.02;
+  color: var(--color-black);
+  border-radius: 16px;
+  }
+  .about__text {
+    counter-increment: cardCount;
+  }
+  .about__text::before {
+  content: counter(cardCount, decimal-leading-zero);
+  display: block;
+  padding-bottom: 16px;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 1.14; /* 114.286% */
+  letter-spacing: -0.02em;
+  color: var(--color-green);
+  }
+  .about__wrapper {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 313px;
+  border-radius: 16px;
+  background-color: var(--color-green);
+  }
+  .about__img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
