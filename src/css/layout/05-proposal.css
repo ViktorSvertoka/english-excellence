@@ -8,6 +8,13 @@
   background: linear-gradient(80deg, #4DC274 0%, #BEE8CC 100%);
 }
 
+@media screen and (min-width: 375px) {
+  .proposal {
+    width: 335px;
+  }
+}
+
+
 @media screen and (min-width: 768px) {
   .proposal {
     width: 704px;
@@ -25,6 +32,13 @@
     padding-bottom: 70px;
     border-radius: 30px;
     margin-bottom: 150px;
+  }
+}
+
+@media screen and (min-width: 375px) {
+  .proposal__container {
+    width: 335px;
+    padding: 0;
   }
 }
 
