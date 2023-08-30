@@ -8,8 +8,16 @@
   background: linear-gradient(80deg, #4DC274 0%, #BEE8CC 100%);
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 375px) {
   .proposal {
+    width: 335px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+
+  .proposal {
+
     width: 704px;
     padding-top: 64px;
     padding-bottom: 30px;
@@ -81,7 +89,7 @@
   width: 367px;
   height: 456px;
   background-image: url(../../img/bg-proposal-mobile.png);
-  transform: translateX(-15px);
+  transform: translateX(-35px);
 }
 
 @media screen and (min-width: 768px) {
