@@ -1,22 +1,178 @@
 .our__lessons {
+  background-color: #ffffff;
 }
-.title__container {
-}
-.container {
-}
+
 .lessons__title {
+  color: var(--color-black);
+  text-align: center;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 1.13;
+  letter-spacing: -0.64px;
+  width: 100%;
+  margin-bottom: 16px;
 }
+
+@media screen and (min-width: 768px) {
+  .lessons__title {
+    font-size: 40px;
+    line-height: 1.2;
+    letter-spacing: -0.8px;
+  }
+}
+
 .lessons__subtext {
+  color: rgba(18, 20, 23, 0.5);
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.71;
+  width: 100%;
+  margin-bottom: 0 auto 40px;
 }
+
+@media screen and (min-width: 375px) {
+  .lessons__subtext {
+    width: 335px;
+    margin-bottom: 40px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .lessons__subtext {
+    width: 665px;
+    font-size: 18px;
+    line-height: 1.67;
+    margin-bottom: 64px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .lessons__subtext {
+    width: 665px;
+    font-size: 18px;
+    line-height: 1.67;
+    width: 647px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .lessons__subtext {
+    margin: 0 auto;
+    width: 1024px;
+    margin-bottom: 64px;
+  }
+}
+
+.lessons__cards-list {
+  display: flex;
+  gap: 32px;
+}
+
 .lessons__cards {
+  width: 100%;
+  height: 404px;
+  flex-shrink: 0;
+  border-radius: 30px;
+  border: 1px solid var(--color-green);
+  background: var(--color-white);
+  padding: 20px;
+  margin-bottom: 20px;
 }
+
+.odd {
+  background: var(--color-green);
+}
+
+@media screen and (min-width: 375px) {
+  .lessons__cards .odd {
+    width: 336px;
+    border-radius: 16px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .rlessons__cards .odd {
+    width: 336px;
+    border-radius: 30px;
+    padding: 32px 16px 0 16px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .lessons__cards {
+    width: 320px;
+  }
+}
+
 .lessons__card-even {
 }
+.lessons__card-odd {
+  background-color: var(--color-green);
+}
+
 .lessons__card-title {
+  width: 100%;
+  color: var(--color-black);
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: -0.4px;
+  margin-top: 40px;
+  margin-bottom: 16px;
 }
 .lessons__card-price {
+  width: 100%;
+  color: var(--color-black);
+  text-align: center;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: -0.64px;
+  margin-bottom: 40px;
 }
 .lessons__card-description {
+  width: 100%;
+  color: rgba(18, 20, 23, 0.5);
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 20px;
 }
-.lessons__card-odd {
+
+.odd-text {
+  color: var(--color-white);
+}
+
+.lessons__card-button {
+  width: 295px;
+  height: 52px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  background: var(--color-green);
+  margin: 0 auto;
+  display: flex;
+}
+
+.odd-button {
+  border: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.lessons__card-button:hover,
+.lessons__card-button:focus {
+  background: #38ae5f;
+}
+
+.lessons__card-button:active {
+  background: #38ae5f;
+}
+
+.lessons__card-button-text {
+  color: var(--color-white);
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.714;
 }

@@ -16,6 +16,8 @@
   background-size: cover;
   background-position: center;
   border-radius: 16px;
+  padding-right: 20px;
+  padding-left: 20px;
 }
 
 @media screen and (min-resolution: 192dpi),
@@ -36,6 +38,8 @@
     width: 704px;
     padding-top: 260px;
     padding-bottom: 295px;
+    /* padding-right: 32px;
+    padding-left: 32px; */
     text-align: start;
     border-radius: 30px;
     background-image: linear-gradient(
