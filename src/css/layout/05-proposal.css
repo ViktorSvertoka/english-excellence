@@ -14,7 +14,6 @@
   }
 }
 
-
 @media screen and (min-width: 768px) {
 
   .proposal {
@@ -98,6 +97,14 @@
   height: 456px;
   background-image: url(../../img/bg-proposal-mobile.png);
   transform: translateX(-35px);
+
+}
+
+@media screen and (min-width: 375px) {
+  .proposal__box {
+    transform: translateX(-15px);
+  }
+
 }
 
 @media screen and (min-width: 768px) {
