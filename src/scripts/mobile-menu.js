@@ -35,9 +35,9 @@
 
 (() => {
   const refs = {
-    openModalBtn: document.querySelector('[menu-open-btn]'),
-    closeModalBtn: document.querySelector('[menu-close-btn]'),
-    modal: document.querySelector('[menu-backdrop]'),
+    openModalBtn: document.querySelector('[data-menu-open-btn]'),
+    closeModalBtn: document.querySelector('[data-menu-close-btn]'),
+    modal: document.querySelector('[data-menu-backdrop]'),
     body: document.querySelector('body'),
   };
 

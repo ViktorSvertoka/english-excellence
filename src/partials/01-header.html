@@ -81,7 +81,7 @@
       type="button"
       aria-expanded="false"
       aria-controls="mobile-menu"
-      menu-open-btn
+      data-menu-open-btn
     >
       <svg
         class="menu-open__icon"
@@ -90,6 +90,7 @@
         stroke="var(--color-black)"
         aria-controls="mobile-menu"
         aria-expanded="false"
+        role="img"
       >
         <use
           class="menu-open__use"
@@ -100,12 +101,12 @@
   </div>
 
   <!-- Mobile Menu container -->
-  <div class="backdrop is-hidden" menu-backdrop>
+  <div class="backdrop is-hidden" data-menu-backdrop>
     <div class="menu-container js-menu-container" id="mobile-menu">
       <button
         type="button"
         class="menu-close__button js-close-menu"
-        menu-close-btn
+        data-menu-close-btn
       >
         <svg class="menu-close__icon" width="32" height="32">
           <use href="./sprite.svg#icon-x-close"></use>
