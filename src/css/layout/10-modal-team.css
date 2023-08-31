@@ -11,20 +11,17 @@
   visibility: visible;
   opacity: 1;
 }
-
 .is-hidden {
   visibility: hidden;
   pointer-events: none;
   opacity: 0;
 }
-
 .is-hidden .team__wrapper {
   visibility: hidden;
   pointer-events: none;
   opacity: 0.3;
   transform: translate(-75%, -90%) scale(3);
 }
-
 .team__wrapper {
   position: relative;
   z-index: 999;
@@ -34,17 +31,15 @@
   padding: 25px 15px 20px;
   visibility: visible;
   opacity: 1;
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: var(--color-white);
   border-radius: 10px;
   box-shadow: 0 28px 42px rgba(0, 0, 0, 0.38), 0 20px 20px rgba(0, 0, 0, 0.33);
 }
-
 @media screen and (min-width: 768px) {
   .team__wrapper {
     width: 580px;
   }
 }
-
 @media screen and (min-width: 1280px) {
   .team__wrapper {
     position: absolute;
@@ -55,37 +50,32 @@
     padding: 30px;
   }
 }
-
 .team__modal-close-btn {
   display: flex;
   justify-content: center;
   align-items: center;
   position: absolute;
-  top: 5px;
-  right: 5px;
+  top: 10px;
+  right: 10px;
   padding: 0px;
   border: none;
   background-color: transparent;
   border-radius: 50%;
   cursor: pointer;
-  color: var(--color-black);
+  stroke: var(--color-black);
 }
-
 @media screen and (min-width: 768px) {
   .team__modal-close-btn {
-    top: 10px;
-    right: 10px;
+    top: 20px;
+    right: 20px;
   }
 }
-
 .team__modal-close-btn:hover {
-  color: var(--color-green);
+  stroke: var(--color-green);
 }
-
 .team__modal-close-icon {
   fill: currentColor;
 }
-
 .team__title {
   text-align: center;
   text-transform: uppercase;
@@ -93,29 +83,29 @@
   font-size: 24px;
   margin-bottom: 20px;
 }
-
 .team__list {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   gap: 1.2rem;
 }
-
 .team__item {
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 5px;
+  background-color: var(--color-grey);
   color: var(--color-white);
   position: relative;
   border-radius: 10px;
   padding-bottom: 5px;
   overflow: hidden;
 }
-
+.team__item:hover,
+.team__item:focus {
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+}
 .team__wrap {
   overflow: hidden;
 }
-
 .team__img {
   overflow: hidden;
   object-fit: cover;
@@ -123,7 +113,6 @@
   width: 200px;
   height: 180px;
 }
-
 .team__box {
   /* Replace with your font properties */
   font-weight: 500;
@@ -132,21 +121,18 @@
   text-align: center;
   margin-bottom: 3px;
 }
-
 .team__member {
   font-weight: 500;
   font-size: 18px;
   color: var(--color-black);
   margin-bottom: 10px;
 }
-
 .team__role {
   font-weight: 500;
   font-size: 16px;
   color: var(--color-green);
   margin-bottom: 10px;
 }
-
 .team__link-linkedin {
   border: none;
   width: 36px;
@@ -159,13 +145,11 @@
   justify-content: center;
   align-items: center;
 }
-
 .team__link-linkedin--active:hover,
 .team__link-linkedin--active:focus {
   background-color: var(--color-green);
   fill: var(--color-white);
 }
-
 .team__link-github {
   border: none;
   width: 36px;
@@ -177,7 +161,6 @@
   justify-content: center;
   align-items: center;
 }
-
 .team__link-github--active:hover,
 .team__link-github--active:focus {
   background-color: var(--color-green);
