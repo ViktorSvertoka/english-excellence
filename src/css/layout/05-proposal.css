@@ -4,11 +4,21 @@
 
 .proposal__container {
   position: relative;
-  width: 335px;
+  width: 100%;
   padding-top: 40px;
   padding-bottom: 41px;
   border-radius: 16px;
   background: linear-gradient(80deg, #4dc274 0%, #bee8cc 100%);
+  overflow: hidden;
+}
+
+@media screen and (min-width: 320px) {
+  .proposal__container {
+    width: 335px;
+    padding-top: 64px;
+    padding-bottom: 30px;
+    border-radius: 30px;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -32,6 +42,7 @@
 .proposal__heading {
   max-width: 295px;
   color: var(--color-white);
+  font-weight: 700;
   font-size: 38px;
   line-height: 1.05;
   margin-bottom: 40px;
@@ -77,8 +88,8 @@
 
 @media screen and (min-width: 768px) {
   .proposal__box {
-    padding-right: 0;
-    padding-left: 0;
+    padding-right: 30px;
+    padding-left: 20px;
     display: flex;
     gap: 20px;
     width: 754px;
@@ -86,6 +97,7 @@
     background-image: url(../../img/bg-proposal-tablet.png);
     background-size: 754px 614px;
     transform: translateX(-52px);
+    background-clip: content-box;
   }
 }
 
@@ -135,6 +147,7 @@
 .proposal__tittle {
   color: var(--color-black);
   font-size: 20px;
+  font-weight: 700;
   line-height: 1.2;
   letter-spacing: -0.4px;
 }
@@ -241,12 +254,14 @@
 .proposal__button {
   margin: 0 auto;
   display: flex;
-  width: 255px;
+  width: 100%;
   height: 52px;
   justify-content: center;
   align-items: center;
   border-radius: 12px;
   background: var(--color-green);
+  border: none;
+
 }
 
 .proposal__button:hover,
