@@ -14,7 +14,6 @@
     font-size: 40px;
     line-height: 1.2;
     letter-spacing: -0.8px;
-    /* margin-bottom: 64px; */
   }
 }
 
@@ -71,8 +70,8 @@
 
 @media screen and (min-width: 768px) {
   .teachers__item {
-    /* width: calc((100%-32px) / 2); */
     width: 272px;
+    height: 318px;
   }
 }
 
@@ -83,12 +82,10 @@
   }
 }
 .teachers__image {
-  /* object-position: center; */
   border-radius: 500px;
 }
 
 .teachers__wrapper {
-  /* margin-top: 16px; */
 }
 
 .teachers__specialist {
@@ -112,6 +109,5 @@
   .teachers__job-title {
   font-size: 16px;
   line-height: 1.5;
-  height: 120px;
   }
 }

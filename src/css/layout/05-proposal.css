@@ -12,7 +12,13 @@
 }
 
 @media screen and (min-width: 768px) {
+ proposal-section-1
   .proposal__container {
+
+
+  .proposal {
+
+
     width: 704px;
     padding-top: 64px;
     padding-bottom: 30px;
@@ -67,13 +73,18 @@
   height: 456px;
   background-image: url(../../img/bg-proposal-mobile.png);
   transform: translateX(-35px);
+ proposal-section-1
   background-clip: content-box;
+
+
+
 }
 
 @media screen and (min-width: 375px) {
   .proposal__box {
     transform: translateX(-35px);
   }
+
 }
 
 @media screen and (min-width: 768px) {
