@@ -173,6 +173,7 @@
   .footer__text-wrapper {
     flex-direction: column;
     text-align: start;
+
     gap: 14px;
     margin-top: 20px;
   }
