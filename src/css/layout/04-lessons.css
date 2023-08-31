@@ -70,7 +70,6 @@
   margin: 0 auto;
 }
 
-
 @media screen and (min-width: 1280px) {
   .lessons__card-list {
     flex-wrap: nowrap;
@@ -81,12 +80,14 @@
 .lessons__card-item {
   width: 100%;
   flex-shrink: 0;
+}
 
 @media screen and (min-width: 768px) {
   .lessons__card-list {
     flex-wrap: wrap;
   }
 }
+
 .lessons__card-even {
   display: flex;
   flex-direction: column;
@@ -94,7 +95,6 @@
 }
 
 .lessons__card-item {
-
   border-radius: 16px;
   border: 1px solid var(--color-green);
   background: var(--color-white);
@@ -110,10 +110,10 @@
 
 @media screen and (min-width: 768px) {
   .lessons__card-item {
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 @media screen and (min-width: 375px) {
@@ -125,30 +125,25 @@
 
 @media screen and (min-width: 768px) {
   .lessons__card .odd {
-
     width: 336px;
     padding: 32px 16px;
   }
 }
 
 @media screen and (min-width: 1280px) {
-
   .lessons__card-item {
-
-  .lessons__card {
-
-    width: 320px;
-    padding: 32px 32px;
+    .lessons__card {
+      width: 320px;
+      padding: 32px 32px;
+    }
   }
 }
 
-
 .border {
   border: 1px solid var(--color-white);
-
+}
 .lessons__card-odd {
   background-color: var(--color-green);
-
 }
 
 .lessons__card-title {
@@ -159,7 +154,6 @@
   font-weight: 700;
   line-height: 24px;
   letter-spacing: -0.4px;
-
 
   /* margin-top: 40px; */
 
@@ -176,7 +170,6 @@
   margin-bottom: 40px;
 }
 
-
 @media screen and (min-width: 768px) {
   .lessons__card-price {
     margin-bottom: 32px;
@@ -190,7 +183,7 @@
 
 .lessons__card-desc {
   width: 100%;
-
+}
 .lessons__card-desc {
   /* width: 100%; */
 
@@ -203,12 +196,10 @@
   margin-bottom: 16px;
 }
 
-
 .even {
   background-color: var(--color-green);
-
+}
 .odd {
-
   color: var(--color-white);
   background: var(--color-green);
 }
@@ -238,7 +229,6 @@
 }
 
 .lessons__card-button {
-
   width: 100%;
 
   display: flex;
@@ -265,7 +255,6 @@
 .lessons__card-button:focus,
 .lessons__card-button:hover {
   background-color: #38ae5f;
-
 }
 
 .lessons__card-button:hover,
@@ -275,5 +264,4 @@
 
 .lessons__card-button:active {
   background: #38ae5f;
-
 }
