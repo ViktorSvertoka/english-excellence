@@ -16,8 +16,8 @@
     />
     <title>Vanilla App Template</title>
     
-    <script type="module" crossorigin src="/english-excellence/assets/index-2c680867.js"></script>
-    <link rel="stylesheet" href="/english-excellence/assets/index-f6addc06.css">
+    <script type="module" crossorigin src="/english-excellence/assets/index-3ff023ac.js"></script>
+    <link rel="stylesheet" href="/english-excellence/assets/index-c0a8f46e.css">
   </head>
   <body>
     <header>
@@ -46,7 +46,7 @@
           <a class="header__nav-link-four link" href="#reviews">Reviews</a>
         </li>
         <li class="header__nav-item">
-          <a class="header__nav-link-five link" href="#contact-us"
+          <a class="header__nav-link-five link" href="#leave-section"
             >Contact Us</a
           >
         </li>
@@ -140,19 +140,19 @@
       <nav class="menu__nav">
         <ul class="menu__nav-list list">
           <li class="menu__nav-item">
-            <a class="menu__nav-link link" href="#About us">About us</a>
+            <a class="menu__nav-link link" href="#about-us">About us</a>
           </li>
           <li class="menu__nav-item">
-            <a class="menu__nav-link link" href="#Our lessons">Our lessons</a>
+            <a class="menu__nav-link link" href="#our-lessons">Our lessons</a>
           </li>
           <li class="menu__nav-item">
-            <a class="menu__nav-link link" href="#Teachers">Teachers</a>
+            <a class="menu__nav-link link" href="#teachers">Teachers</a>
           </li>
           <li class="menu__nav-item">
-            <a class="menu__nav-link link" href="#Reviews">Reviews</a>
+            <a class="menu__nav-link link" href="#reviews">Reviews</a>
           </li>
           <li class="menu__nav-item">
-            <a class="menu__nav-link link" href="#Contact Us">Contact Us</a>
+            <a class="menu__nav-link link" href="#leave-section">Contact Us</a>
           </li>
         </ul>
       </nav>
@@ -214,19 +214,24 @@
       Discover the joy of learning
       <span class="hero__title-current">English</span> with us!
     </h1>
-    <button
+    <a
+      href=""
       id="leave"
-      type="button"
       data-target="leave-section"
       class="hero__button hero__button-text scroll-button"
     >
       Leave an application
-    </button>
-    <button id="footer" type="button" class="hero__button-round">
+    </a>
+    <a
+      data-target="footer-anchor"
+      id="footer"
+      href=""
+      class="hero__button-round scroll-button"
+    >
       <svg width="20" height="20" class="hero__button-icons">
         <use href="./sprite.svg#icon-scroll-down"></use>
       </svg>
-    </button>
+    </a>
   </div>
 </section>
 
@@ -276,43 +281,71 @@
     </div>
   </div>
 </section>
-      <section class="our__lessons">
+      <section class="our__lessons" id="our-lessons">
   <div class="title__container container">
-    <h2 class="lessons__title">Our <span class="text__element">lessons</span></h2>
-    <p class="lessons__subtext">Our lessons are carefully structured and interactive, designed to promote rapid language
-      acquisition through
-      practical tasks and real-world scenarios.</p>
+    <h2 class="lessons__title">
+      Our <span class="text__element">lessons</span>
+    </h2>
+    <p class="lessons__subtext">
+      Our lessons are carefully structured and interactive, designed to promote
+      rapid language acquisition through practical tasks and real-world
+      scenarios.
+    </p>
     <ul class="lessons__card-list">
       <li class="lessons__card-item">
         <h3 class="lessons__card-title">Practice</h3>
         <p class="lessons__card-price">40$ / month</p>
-        <p class="lessons__card-desc">This plan offers an opportunity for learners to engage in collaborative language
-          exercises and group activities,
-          boosting their conversational skills and confidence in using English.</p>
-        <a class="lessons__card-button lessons__card-button-text" id="contact-us" href="">Leave an application</a>
+        <p class="lessons__card-desc">
+          This plan offers an opportunity for learners to engage in
+          collaborative language exercises and group activities, boosting their
+          conversational skills and confidence in using English.
+        </p>
+        <a
+          data-target="leave-section"
+          class="lessons__card-button lessons__card-button-text scroll-button"
+          id="contact-us"
+          href=""
+          >Leave an application</a
+        >
       </li>
 
       <li class="lessons__card-item even">
         <h3 class="lessons__card-title even">Standart</h3>
         <p class="lessons__card-price even">70$ / month</p>
-        <p class="lessons__card-desc even-text">Our standard package provides a balanced learning approach that covers
-          all key areas of English language - reading,
-          writing, listening, and speaking. It is a set of basic knowledge and skills.</p>
-        <a class="lessons__card-button even border" id="contact-us" href="">Leave an
-          application</a>
+        <p class="lessons__card-desc even-text">
+          Our standard package provides a balanced learning approach that covers
+          all key areas of English language - reading, writing, listening, and
+          speaking. It is a set of basic knowledge and skills.
+        </p>
+        <a
+          data-target="leave-section"
+          class="lessons__card-button even border scroll-button"
+          id="contact-us"
+          href=""
+          >Leave an application</a
+        >
       </li>
 
       <li class="lessons__card-item">
         <h3 class="lessons__card-title">Individual</h3>
         <p class="lessons__card-price">99$ / month</p>
-        <p class="lessons__card-desc">We offer a tailored learning experience with individualized instruction that
-          focuses on a learner's specific language
-          goals and challenges, offering personal feedback.</p>
-        <a class="lessons__card-button" id="contact-us" href="">Leave an application</a>
+        <p class="lessons__card-desc">
+          We offer a tailored learning experience with individualized
+          instruction that focuses on a learner's specific language goals and
+          challenges, offering personal feedback.
+        </p>
+        <a
+          data-target="leave-section"
+          class="lessons__card-button scroll-button"
+          id="contact-us"
+          href=""
+          >Leave an application</a
+        >
       </li>
     </ul>
   </div>
 </section>
+
       <section class="proposal">
   <div class="proposal__container container">
     <h2 class="visually-hidden">Proposal to leave an application</h2>
@@ -346,13 +379,13 @@
           </li>
         </ul>
 
-        <button
-          id="contact-us"
-          type="button"
-          class="proposal__button proposal__button-text"
+        <a
+          data-target="leave-section"
+          href=""
+          class="proposal__button proposal__button-text scroll-button"
         >
           Leave an application
-        </button>
+        </a>
       </div>
       <img
         class="proposal__pic"
@@ -657,7 +690,7 @@
     </main>
 
     <footer>
-      <footer class="footer">
+      <footer class="footer" id="footer-anchor">
   <div class="footer-container container">
     <div class="footer__content-wrap">
       <div class="footer__logo-adress-wrap">
@@ -701,7 +734,9 @@
             <a class="footer-nav__link link" href="#reviews">Reviews</a>
           </li>
           <li class="footer-nav__item">
-            <a class="footer-nav__link link" href="#contact-us">Contact us</a>
+            <a class="footer-nav__link link" href="#leave-section"
+              >Contact us</a
+            >
           </li>
         </ul>
       </nav>
