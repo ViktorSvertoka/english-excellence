@@ -16,7 +16,7 @@
     />
     <title>Vanilla App Template</title>
     
-    <script type="module" crossorigin src="/english-excellence/assets/index-3ff023ac.js"></script>
+    <script type="module" crossorigin src="/english-excellence/assets/index-1a815800.js"></script>
     <link rel="stylesheet" href="/english-excellence/assets/index-c0a8f46e.css">
   </head>
   <body>
@@ -104,7 +104,7 @@
       type="button"
       aria-expanded="false"
       aria-controls="mobile-menu"
-      menu-open-btn
+      data-menu-open-btn
     >
       <svg
         class="menu-open__icon"
@@ -113,6 +113,7 @@
         stroke="var(--color-black)"
         aria-controls="mobile-menu"
         aria-expanded="false"
+        role="img"
       >
         <use
           class="menu-open__use"
@@ -123,12 +124,12 @@
   </div>
 
   <!-- Mobile Menu container -->
-  <div class="backdrop is-hidden" menu-backdrop>
+  <div class="backdrop is-hidden" data-menu-backdrop>
     <div class="menu-container js-menu-container" id="mobile-menu">
       <button
         type="button"
         class="menu-close__button js-close-menu"
-        menu-close-btn
+        data-menu-close-btn
       >
         <svg class="menu-close__icon" width="32" height="32">
           <use href="./sprite.svg#icon-x-close"></use>
@@ -838,7 +839,6 @@
             loading="lazy"
             src="/english-excellence/assets/viktor_svertoka-cab6887d.jpg"
             alt="Viktor Svertoka"
-            loading="lazy"
           />
         </div>
         <div class="team__box">
@@ -873,7 +873,6 @@
             loading="lazy"
             src="/english-excellence/assets/andrew_motko-298979da.jpg"
             alt="Andrew Motko"
-            loading="lazy"
           />
         </div>
         <div class="team__box">
@@ -908,7 +907,6 @@
             loading="lazy"
             src="/english-excellence/assets/lesia_soloviova-b140d0aa.jpg"
             alt="Lesia Soloviova"
-            loading="lazy"
           />
         </div>
         <div class="team__box">
@@ -943,7 +941,6 @@
             loading="lazy"
             src="/english-excellence/assets/alina_riabova-3203c663.jpg"
             alt="Alina Riabova"
-            loading="lazy"
           />
         </div>
         <div class="team__box">
@@ -978,7 +975,6 @@
             loading="lazy"
             src="/english-excellence/assets/svitlana_savchenko-fd2f4293.jpg"
             alt="Svitlana Savchenko"
-            loading="lazy"
           />
         </div>
         <div class="team__box">
@@ -1013,7 +1009,6 @@
             loading="lazy"
             src="/english-excellence/assets/tetiana_zorii-3f67ff79.jpg"
             alt="Tetiana Zorii"
-            loading="lazy"
           />
         </div>
         <div class="team__box">
@@ -1048,7 +1043,6 @@
             loading="lazy"
             src="/english-excellence/assets/vadym_andriushchenko-634876a4.jpg"
             alt="Vadym Andriushchenko"
-            loading="lazy"
           />
         </div>
         <div class="team__box">
@@ -1083,7 +1077,6 @@
             loading="lazy"
             src="/english-excellence/assets/yuliia_nazymko-337e0f04.jpg"
             alt="Yuliia Nazymko"
-            loading="lazy"
           />
         </div>
         <div class="team__box">
@@ -1118,7 +1111,6 @@
             loading="lazy"
             src="/english-excellence/assets/yevheni-datsenko-93740759.jpg"
             alt="Yevhenii Datsenko"
-            loading="lazy"
           />
         </div>
         <div class="team__box">
