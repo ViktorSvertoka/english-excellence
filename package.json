@@ -15,6 +15,7 @@
   "author": "Viktor Svertoka <victor.svertoka@gmail.com>",
   "license": "ISC",
   "dependencies": {
+    "lodash.throttle": "^4.1.1",
     "modern-normalize": "^2.0.0",
     "vite-plugin-full-reload": "^1.0.5",
     "vite-plugin-html-inject": "^1.0.1"

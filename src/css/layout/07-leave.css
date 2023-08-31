@@ -393,24 +393,17 @@ screen and (min-resolution: 2dppx) and (min-width: 1280px) {
   color: rgba(255, 255, 255, 0.7);
 }
 
+/* Временные стили для валидации формы */
+
 .error {
   border-color: red;
 }
 
 .leave__form-btn {
-  /* Стиль активной кнопки */
-  background-color: #007bff;
-  color: white;
-  border: none;
-  cursor: pointer;
-  transition: background-color 0.3s, color 0.3s;
-
-  /* Убираем стилизацию кнопки при hover, когда она disabled */
   pointer-events: none;
 }
 
 .leave__form-btn[disabled] {
-  /* Стиль неактивной кнопки */
   background-color: #ccc;
   color: #888;
   cursor: not-allowed;
