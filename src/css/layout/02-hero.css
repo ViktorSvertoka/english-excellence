@@ -1,11 +1,20 @@
 .hero {
-  margin: 0 auto;
-  position: relative;
-  background-color: #f3f5f6;
+  padding: 0 20px;
+  width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .hero {
+    padding: 0 32px;
+  }
+}
+
+.hero-container {
   width: 100%;
   padding-top: 425px;
-  padding-bottom: 164px;
+  padding-bottom: 72px;
+  position: relative;
   text-align: center;
+  border-radius: 16px;
   background-image: linear-gradient(
       114deg,
       rgba(0, 0, 0, 0.4) 0%,
@@ -23,7 +32,7 @@
 @media screen and (min-resolution: 192dpi),
   screen and (min-resolution: 2dppx),
   screen and (min-device-pixel-ratio: 2) {
-  .hero {
+  .hero-container {
     background-image: linear-gradient(
         114deg,
         rgba(0, 0, 0, 0.4) 0%,
@@ -33,8 +42,14 @@
   }
 }
 
+@media screen and (min-width: 375px) {
+  .hero-container {
+    width: 335px;
+  }
+}
+
 @media screen and (min-width: 768px) {
-  .hero {
+  .hero-container {
     width: 704px;
     padding-top: 260px;
     padding-bottom: 295px;
@@ -53,7 +68,7 @@
   @media screen and (min-resolution: 192dpi),
     screen and (min-resolution: 2dppx),
     screen and (min-device-pixel-ratio: 2) {
-    .hero {
+    .hero-container {
       background-image: linear-gradient(
           114deg,
           rgba(0, 0, 0, 0.4) 0%,
@@ -65,7 +80,7 @@
 }
 
 @media screen and (min-width: 1280px) {
-  .hero {
+  .hero-container {
     width: 1152px;
     padding-top: 164px;
     padding-bottom: 164px;
@@ -80,7 +95,7 @@
   @media screen and (min-resolution: 192dpi),
     screen and (min-resolution: 2dppx),
     screen and (min-device-pixel-ratio: 2) {
-    .hero {
+    .hero-container {
       background-image: linear-gradient(
           114deg,
           rgba(0, 0, 0, 0.4) 0%,
@@ -129,13 +144,8 @@
   border-radius: 12px;
   background: #4dc274;
   border: none;
-  transition: transform var(--transition-dur-and-func);
+  margin: 0 auto;
 }
-
-/* .hero__button:hover,
-.hero__button:focus {
-  transform: scale(1.1);
-} */
 
 .hero__button-text {
   color: #fff;
@@ -148,11 +158,20 @@
   .hero__button {
     width: 306px;
     height: 60px;
+    margin: 0;
   }
   .hero__button-text {
     font-size: 18px;
     line-height: 1.55;
   }
+}
+.hero__button:active {
+  background-color: #38ae5f;
+}
+
+.hero__button:hover,
+.hero__button:focus {
+  background-color: #38ae5f;
 }
 
 .hero__button-round {
@@ -161,13 +180,14 @@
   justify-content: center;
   bottom: 14px;
   right: 14px;
+  width: 38px;
+  height: 38px;
   background-color: #fff;
   border-radius: 50%;
   color: #ffffff;
   position: absolute;
   overflow: hidden;
   border: none;
-  transition: transform var(--transition-dur-and-func);
 }
 
 @media screen and (min-width: 768px) {
@@ -190,7 +210,8 @@
 
 .hero__button-icons {
   fill: #4dc274;
-  transition: transform var(--transition-dur-and-func);
+  width: 20px;
+  height: 20px;
 }
 
 @media screen and (min-width: 768px) {
@@ -204,7 +225,7 @@
   fill: #ffffff;
 }
 
-.hero__button-icons:hover,
-.hero__button-icons:focus {
+.hero__button-round:hover .hero__button-icons,
+.hero__button-round:focus .hero__button-icons {
   fill: #ffffff;
 }
