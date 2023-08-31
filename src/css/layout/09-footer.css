@@ -1,21 +1,22 @@
 .footer {
   background-color: var(--color-black);
 }
+
 .footer-container {
-  width: 335px;
+  width: 375px;
   text-align: start;
-  padding: 40px 20px 20px 20px;
+  padding: 40px 20px 20px;
 }
 @media screen and (min-width: 768px) {
   .footer-container {
-    width: 704px;
-    padding: 32px 32px 16px 32px;
+    width: 760px;
+    padding: 32px 32px 16px;
   }
 }
 @media screen and (min-width: 1280px) {
   .footer-container {
-    width: 1024px;
-    padding: 64px 128px 23px 128px;
+    width: 1280px;
+    padding: 64px 128px 23px;
   }
 }
 @media screen and (min-width: 768px) {
