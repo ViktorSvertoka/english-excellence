@@ -2,18 +2,6 @@
   width: 100%;
 }
 
-@media screen and (min-width: 768px) {
-  .proposal {
-    margin-bottom: 100px;
-  }
-}
-
-@media screen and (min-width: 1280px) {
-  .proposal {
-    margin-bottom: 150px;
-  }
-}
-
 .proposal__container {
   position: relative;
   width: 335px;
