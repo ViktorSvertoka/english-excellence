@@ -210,6 +210,8 @@
 
 .hero__button-icons {
   fill: #4dc274;
+  width: 20px;
+  height: 20px;
 }
 
 @media screen and (min-width: 768px) {
