@@ -1,65 +1,41 @@
 .proposal {
-  margin: 0 auto 80px auto;
-  position: relative;
   width: 100%;
+}
+
+.proposal__container {
+  position: relative;
+  width: 335px;
   padding-top: 40px;
   padding-bottom: 41px;
   border-radius: 16px;
   background: linear-gradient(80deg, #4DC274 0%, #BEE8CC 100%);
 }
 
-@media screen and (min-width: 375px) {
-  .proposal {
-    width: 335px;
-  }
-}
-
 @media screen and (min-width: 768px) {
+ proposal-section-1
+  .proposal__container {
+
 
   .proposal {
+
 
     width: 704px;
     padding-top: 64px;
     padding-bottom: 30px;
     border-radius: 30px;
-    margin-bottom: 100px;
   }
 }
 
 @media screen and (min-width: 1280px) {
-  .proposal {
+  .proposal__container {
     width: 1152px;
     padding-top: 64px;
     padding-bottom: 70px;
     border-radius: 30px;
-    margin-bottom: 150px;
-  }
-}
-
-@media screen and (min-width: 375px) {
-  .proposal__container {
-    width: 335px;
-    padding: 0;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .proposal__container {
-    width: 704px;
-    padding: 0;
-  }
-}
-
-@media screen and (min-width: 1280px) {
-  .proposal__container {
-    width: 1152px;
-    padding: 0;
-
   }
 }
 
 .proposal__heading {
-  padding-left: 20px;
   max-width: 295px;
   color: var(--color-white);
   font-size: 38px;
@@ -73,7 +49,6 @@
 
 @media screen and (min-width: 768px) {
   .proposal__heading {
-    padding-left: 32px;
     max-width: 672px;
     font-size: 60px;
     line-height: 1.17;
@@ -84,7 +59,6 @@
 
 @media screen and (min-width: 1280px) {
   .proposal__heading {
-    padding-left: 64px;
     max-width: 840px;
     font-size: 60px;
     line-height: 1.17;
@@ -93,45 +67,51 @@
 }
 
 .proposal__box {
+  padding-right: 17px;
+  padding-left: 15px;
   width: 367px;
   height: 456px;
   background-image: url(../../img/bg-proposal-mobile.png);
   transform: translateX(-35px);
+ proposal-section-1
+  background-clip: content-box;
+
+
 
 }
 
 @media screen and (min-width: 375px) {
   .proposal__box {
-    padding-left: 15px;
-    padding-right: 17px;
-    transform: translateX(-15px);
-    background-clip: content-box;
+    transform: translateX(-35px);
   }
 
 }
 
 @media screen and (min-width: 768px) {
   .proposal__box {
+    padding-right: 0;
+    padding-left: 0;
     display: flex;
     gap: 20px;
     width: 754px;
     height: 614px;
     background-image: url(../../img/bg-proposal-tablet.png);
     background-size: 754px 614px;
-    transform: translateX(-20px);
+    transform: translateX(-52px);
   }
 }
 
-
 @media screen and (min-width: 1280px) {
   .proposal__box {
+    padding-right: 0;
+    padding-left: 0;
     display: flex;
     gap: 92px;
     width: 1104px;
     height: 604px;
     background-image: url(../../img/bg-proposal-desktop.png);
     background-size: 1104px 604px;
-    transform: translateX(14px);
+    transform: translateX(-50px);
   }
 }
 
@@ -336,7 +316,7 @@
     display: inline;
     width: 214px;
     height: 263px;
-    margin-top: 190px;
+    margin-top: 225px;
   }
 }
 
@@ -345,6 +325,6 @@
     display: inline;
     width: 214px;
     height: 263px;
-    margin-top: 225px;
+    margin-top: 190px;
   }
 }
