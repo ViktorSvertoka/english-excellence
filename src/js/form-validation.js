@@ -4,18 +4,16 @@ const inputs = form.querySelectorAll('.leave__form-input');
 
 form.addEventListener('submit', function (event) {
   event.preventDefault();
-  if (validateForm()) {
-    // Действия при корректно заполненной форме
-    // Например, отправка данных на сервер
+  // Действия при корректно заполненной форме
+  // Например, отправка данных на сервер
 
-    // Сбрасываем значения полей формы после успешной отправки
-    form.reset();
-    // Также сбрасываем стили ошибок и деактивируем кнопку
-    inputs.forEach(input => {
-      input.classList.remove('error');
-    });
-    submitButton.setAttribute('disabled', 'true');
-  }
+  // Сбрасываем значения полей формы после успешной отправки
+  form.reset();
+  // Также сбрасываем стили ошибок и деактивируем кнопку
+  inputs.forEach(input => {
+    input.classList.remove('error');
+  });
+  submitButton.setAttribute('disabled', 'true');
 });
 
 inputs.forEach(input => {

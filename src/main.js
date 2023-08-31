@@ -1,6 +1,6 @@
-import './scripts/mobile-menu';
-import './scripts/mobile-icon-open';
-import './scripts/modal-team';
-import './scripts/smooth-scroll';
-import './scripts/scroll-top';
-import './scripts/form-validation';
+import './js/mobile-menu';
+import './js/mobile-icon-open';
+import './js/modal-team';
+import './js/smooth-scroll';
+import './js/scroll-top';
+import './js/form-validation';
