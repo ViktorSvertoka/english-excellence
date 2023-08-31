@@ -8,21 +8,17 @@
   padding-top: 40px;
   padding-bottom: 41px;
   border-radius: 16px;
-  background: linear-gradient(80deg, #4DC274 0%, #BEE8CC 100%);
+  background: linear-gradient(80deg, #4dc274 0%, #bee8cc 100%);
 }
 
 @media screen and (min-width: 768px) {
- proposal-section-1
   .proposal__container {
-
-
-  .proposal {
-
-
-    width: 704px;
-    padding-top: 64px;
-    padding-bottom: 30px;
-    border-radius: 30px;
+    .proposal {
+      width: 704px;
+      padding-top: 64px;
+      padding-bottom: 30px;
+      border-radius: 30px;
+    }
   }
 }
 
@@ -56,7 +52,6 @@
   }
 }
 
-
 @media screen and (min-width: 1280px) {
   .proposal__heading {
     max-width: 840px;
@@ -73,18 +68,13 @@
   height: 456px;
   background-image: url(../../img/bg-proposal-mobile.png);
   transform: translateX(-35px);
- proposal-section-1
   background-clip: content-box;
-
-
-
 }
 
 @media screen and (min-width: 375px) {
   .proposal__box {
     transform: translateX(-35px);
   }
-
 }
 
 @media screen and (min-width: 768px) {
@@ -134,7 +124,6 @@
   }
 }
 
-
 @media screen and (min-width: 1280px) {
   .proposal__wrapper {
     width: 768px;
@@ -167,16 +156,14 @@
 }
 
 .proposal__item::before {
-  content: "";
+  content: '';
   display: inline-block;
   width: 20px;
   height: 20px;
   background-image: url('../../public/check-m.svg');
 }
 
-
 .proposal__item-text {
-
   width: 227px;
   color: var(--color-black);
   font-size: 14px;
@@ -202,7 +189,7 @@
   }
 
   .proposal__item::before {
-    content: "";
+    content: '';
     display: inline-block;
     width: 28px;
     height: 28px;
@@ -218,7 +205,6 @@
     letter-spacing: -0.4px;
   }
 }
-
 
 @media screen and (min-width: 1280px) {
   .proposal__tittle {
@@ -237,7 +223,7 @@
   }
 
   .proposal__item::before {
-    content: "";
+    content: '';
     display: inline-block;
     width: 28px;
     height: 28px;
@@ -267,11 +253,11 @@
 
 .proposal__button:hover,
 .proposal__button:focus {
-  background: #38AE5F;
+  background: #38ae5f;
 }
 
 .proposal__button:active {
-  background: #38AE5F;
+  background: #38ae5f;
 }
 
 .proposal__button-text {
