@@ -8,7 +8,11 @@
   padding-top: 40px;
   padding-bottom: 41px;
   border-radius: 16px;
-  background: linear-gradient(80deg, #4dc274 0%, #bee8cc 100%);
+  background: linear-gradient(
+    80deg,
+    var(--color-green) 0%,
+    var(--color-green-pseudo) 100%
+  );
   overflow: hidden;
 }
 
@@ -260,16 +264,15 @@
   border-radius: 12px;
   background: var(--color-green);
   border: none;
-
 }
 
 .proposal__button:hover,
 .proposal__button:focus {
-  background: #38ae5f;
+  background: var(--color-dark-green);
 }
 
 .proposal__button:active {
-  background: #38ae5f;
+  background: var(--color-dark-green);
 }
 
 .proposal__button-text {
