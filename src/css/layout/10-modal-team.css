@@ -31,7 +31,7 @@
   padding: 25px 15px 20px;
   visibility: visible;
   opacity: 1;
-  background-color: var(--color-green-pseudo);
+  background-color: var(--color-white);
   border-radius: 10px;
   box-shadow: 0 28px 42px rgba(0, 0, 0, 0.38), 0 20px 20px rgba(0, 0, 0, 0.33);
 }
@@ -92,7 +92,7 @@
 }
 .team__item {
   border-radius: 5px;
-  background-color: var(--color-light-green);
+  background-color: var(--color-grey);
   color: var(--color-white);
   position: relative;
   border-radius: 10px;
@@ -124,7 +124,7 @@
 }
 .team__member {
   font-weight: 500;
-  font-size: 18px;
+  font-size: 16px;
   color: var(--color-black);
   margin-bottom: 10px;
 }
