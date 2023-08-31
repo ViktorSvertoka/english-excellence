@@ -9,11 +9,15 @@
   padding-bottom: 41px;
   border-radius: 16px;
   background: linear-gradient(80deg, #4dc274 0%, #bee8cc 100%);
+  overflow: hidden;
 }
 
 @media screen and (min-width: 320px) {
   .proposal__container {
     width: 335px;
+    padding-top: 64px;
+    padding-bottom: 30px;
+    border-radius: 30px;
   }
 }
 
@@ -84,8 +88,8 @@
 
 @media screen and (min-width: 768px) {
   .proposal__box {
-    padding-right: 0;
-    padding-left: 0;
+    padding-right: 30px;
+    padding-left: 20px;
     display: flex;
     gap: 20px;
     width: 754px;
@@ -93,6 +97,7 @@
     background-image: url(../../img/bg-proposal-tablet.png);
     background-size: 754px 614px;
     transform: translateX(-52px);
+    background-clip: content-box;
   }
 }
 
