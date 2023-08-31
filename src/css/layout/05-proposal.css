@@ -13,12 +13,10 @@
 
 @media screen and (min-width: 768px) {
   .proposal__container {
-    .proposal {
-      width: 704px;
-      padding-top: 64px;
-      padding-bottom: 30px;
-      border-radius: 30px;
-    }
+    width: 704px;
+    padding-top: 64px;
+    padding-bottom: 30px;
+    border-radius: 30px;
   }
 }
 
