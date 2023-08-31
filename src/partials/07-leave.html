@@ -18,7 +18,7 @@
           </p>
         </div>
       </div>
-      <form class="leave__form">
+      <form class="leave__form" id="leaveForm">
         <div class="leave__input-group">
           <input
             class="leave__form-input"
@@ -98,7 +98,14 @@
             >
           </div>
         </fieldset>
-        <button class="leave__form-btn" type="submit">Send</button>
+        <button
+          class="leave__form-btn"
+          type="submit"
+          id="submitButton"
+          disabled
+        >
+          Send
+        </button>
         <p class="leave__form-policy">
           By clicking on “Send” button, you agree to our
           <a class="leave__form-policy-link" href="">Privacy Policy</a>, and

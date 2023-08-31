@@ -250,11 +250,11 @@
   }
 }
 
-.leave__radio-input:checked+.leave__radio-label::before {
+.leave__radio-input:checked + .leave__radio-label::before {
   border-color: var(--color-green);
 }
 
-.leave__radio-input:checked+.leave__radio-label::after {
+.leave__radio-input:checked + .leave__radio-label::after {
   opacity: 1;
 }
 
@@ -391,4 +391,27 @@ screen and (min-resolution: 2dppx) and (min-width: 1280px) {
   font-weight: 400;
   line-height: 1.5;
   color: rgba(255, 255, 255, 0.7);
+}
+
+.error {
+  border-color: red;
+}
+
+.leave__form-btn {
+  /* Стиль активной кнопки */
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+
+  /* Убираем стилизацию кнопки при hover, когда она disabled */
+  pointer-events: none;
+}
+
+.leave__form-btn[disabled] {
+  /* Стиль неактивной кнопки */
+  background-color: #ccc;
+  color: #888;
+  cursor: not-allowed;
 }
