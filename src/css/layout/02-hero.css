@@ -23,6 +23,7 @@
   flex-direction: column;
   position: relative;
   justify-content: flex-end;
+  border-radius: 16px;
 
   width: clamp(278px, calc(100vw - 40px), 335px);
   height: clamp(604px, 189vw, 708px);
@@ -133,6 +134,7 @@
     padding: 260px 32px 295px;
     align-items: flex-start;
     justify-content: flex-end;
+    border-radius: 30px;
   }
 
   .hero__title {
