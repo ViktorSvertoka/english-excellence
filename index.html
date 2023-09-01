@@ -16,8 +16,8 @@
     />
     <title>Vanilla App Template</title>
     
-    <script type="module" crossorigin src="/english-excellence/assets/index-1a815800.js"></script>
-    <link rel="stylesheet" href="/english-excellence/assets/index-c0a8f46e.css">
+    <script type="module" crossorigin src="/english-excellence/assets/index-eb1a5d7c.js"></script>
+    <link rel="stylesheet" href="/english-excellence/assets/index-8939a0bb.css">
   </head>
   <body>
     <header>
@@ -209,27 +209,26 @@
     </header>
 
     <main>
-      <section class="hero">
-  <div class="container hero-container">
+      <section class="hero" id="hero">
+  <div class="hero__background hero__container">
     <h1 class="hero__title">
       Discover the joy of learning
       <span class="hero__title-current">English</span> with us!
     </h1>
     <a
-      href=""
+      class="hero__button-leave scroll-button"
       id="leave"
       data-target="leave-section"
-      class="hero__button hero__button-text scroll-button"
     >
       Leave an application
     </a>
-    <a
-      data-target="footer-anchor"
-      id="footer"
-      href=""
-      class="hero__button-round scroll-button"
-    >
-      <svg width="20" height="20" class="hero__button-icons">
+    <a class="hero__button-round" id="footer">
+      <svg
+        class="hero__button-icon"
+        width="20"
+        height="20"
+        aria-label="scroll down icon"
+      >
         <use href="./sprite.svg#icon-scroll-down"></use>
       </svg>
     </a>
@@ -344,8 +343,8 @@
   </div>
 </section>
 
-      <section class="proposal">
-  <div class="proposal__container container">
+      <section class="proposal container">
+  <div class="proposal__container">
     <h2 class="visually-hidden">Proposal to leave an application</h2>
     <h3 class="proposal__heading">
       Master the <span class="proposal__heading-current">Language</span> with
@@ -355,7 +354,6 @@
     <div class="proposal__box">
       <div class="proposal__wrapper">
         <p class="proposal__tittle">Power of English</p>
-
         <ul class="proposal__list">
           <li class="proposal__item">
             <p class="proposal__item-text">
@@ -377,14 +375,17 @@
           </li>
         </ul>
 
+
         <a
           data-target="leave-section"
           href=""
           class="proposal__button proposal__button-text scroll-button"
         >
+
           Leave an application
         </a>
       </div>
+
       <img
         class="proposal__pic"
         srcset="/english-excellence/assets/books-2x-70d1fe6e.png 2x"
