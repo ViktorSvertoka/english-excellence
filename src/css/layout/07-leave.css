@@ -367,13 +367,16 @@
   }
 }
 
-/* @media screen and (min-device-pixel-ratio: 2) and (min-width: 1280px),
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 1280px),
 screen and (min-resolution: 192dpi) and (min-width: 1280px),
 screen and (min-resolution: 2dppx) and (min-width: 1280px) {
   .leave__card-wrapper {
-      background-image: url('../../img/form-leave-2x.png');
-    }
-} */
+    background-image: url('../../img/form-leave-2x.png');
+    background-size: 492px;
+    background-position: top;
+
+  }
+}
 
 .leave__card-big-text {
   margin-bottom: 8px;
