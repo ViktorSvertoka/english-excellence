@@ -9,7 +9,7 @@
   margin: 0 auto;
   overflow: hidden;
   border-radius: 16px;
-  background: linear-gradient(80deg, #4dc274 0%, #bee8cc 100%);
+  background: linear-gradient(85deg, #4DC274 2.25%, #BEE8CC 131.25%);
 }
 
 .proposal__heading {
@@ -28,8 +28,7 @@
 }
 
 .proposal__box {
-  margin: 0 auto 40px;
-
+  margin: 0 auto 41px;
   height: 456px;
   background-image: url(../../img/bg-proposal-mobile.png);
   background-clip: content-box;
@@ -135,16 +134,19 @@
   }
 
   .proposal__heading {
+    padding-top: 64px;
     padding-left: 32px;
     max-width: 672px;
     font-size: 60px;
     line-height: 1.17;
-    margin-bottom: 33px;
+    margin-bottom: 32px;
   }
 
   .proposal__box {
+    margin: 0 auto 30px;
     display: flex;
     gap: 20px;
+    width: 714px;
     height: 614px;
     background-image: url(../../img/bg-proposal-tablet.png);
     background-size: 754px 614px;
@@ -154,7 +156,7 @@
   .proposal__wrapper {
     width: 521px;
     margin: 0;
-    padding: 115px 0 32px 50px;
+    padding: 116px 0 32px 50px;
     gap: 32px;
   }
 
@@ -231,10 +233,12 @@
     max-width: 776px;
     font-size: 60px;
     line-height: 1.17;
-    margin-bottom: 88px;
+    margin-bottom: 72px;
   }
 
   .proposal__box {
+    margin-left: 14px;
+    margin-bottom: 70px;
     gap: 92px;
     width: 1104px;
     height: 604px;
@@ -246,7 +250,7 @@
   .proposal__wrapper {
     width: 768px;
     margin: 0;
-    padding: 110px 0 40px 128px;
+    padding: 126px 0 40px 114px;
   }
 
   .proposal__tittle {
