@@ -24,12 +24,13 @@
   font-weight: 400;
   line-height: 1.71; /* 171.429% */
   width: 100%;
+  max-width: 335px;
   margin: 0 auto 40px;
 }
 
 @media screen and (min-width: 768px) {
   .reviews__subtitle {
-    width: 586px;
+    max-width: 586px;
     margin-bottom: 64px;
   }
 }
@@ -38,7 +39,7 @@
   .reviews__subtitle {
     font-size: 18px;
     line-height: 1.67; /* 166.667% */
-    width: 647px;
+    max-width: 647px;
   }
 }
 
@@ -51,6 +52,7 @@
 
 .reviews__list {
   display: flex;
+  justify-content: center;
   gap: 32px;
 }
 

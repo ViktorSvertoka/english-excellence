@@ -71,7 +71,8 @@
 
 .leave__text {
   margin: 0 auto 20px;
-
+  width: 100%;
+  max-width: 335px;
   text-align: center;
   font-size: 14px;
   line-height: 1.71;
@@ -109,6 +110,7 @@
 
 .leave__form-input {
   width: 100%;
+  max-width: 335px;
   height: 50px;
   padding: 16px 18px;
 
@@ -126,11 +128,11 @@
   border-color: var(--color-green);
 }
 
-@media screen and (min-width: 375px) {
+/* @media screen and (min-width: 375px) {
   .leave__form-input {
     min-width: 335px;
   }
-}
+} */
 
 .teaxtarea-input {
   width: 100%;

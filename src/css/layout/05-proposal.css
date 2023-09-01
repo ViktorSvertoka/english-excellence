@@ -4,7 +4,8 @@
 
 .proposal__container {
   position: relative;
-  width: 335px;
+  max-width: 335px;
+  width: 100%;
   margin: 0 auto;
   overflow: hidden;
   border-radius: 16px;
@@ -130,7 +131,7 @@
 
   .proposal__container {
     border-radius: 30px;
-    width: 704px;
+    max-width: 704px;
   }
 
   .proposal__heading {
@@ -222,7 +223,7 @@
   }
 
   .proposal__container {
-    width: 1152px;
+    max-width: 1152px;
   }
 
   .proposal__heading {
