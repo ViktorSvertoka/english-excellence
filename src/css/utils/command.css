@@ -4,18 +4,18 @@ body {
   background: var(--color-white);
 }
 
-section {
+.section {
   padding-bottom: 80px;
 }
 
 @media screen and (min-width: 768px) {
-  section {
+  .section {
     padding-bottom: 100px;
   }
 }
 
 @media screen and (min-width: 1280px) {
-  section {
+  .section {
     padding-bottom: 150px;
   }
 }

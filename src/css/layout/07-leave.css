@@ -353,13 +353,12 @@
 }
 
 @media screen and (min-device-pixel-ratio: 2) and (min-width: 1280px),
-screen and (min-resolution: 192dpi) and (min-width: 1280px),
-screen and (min-resolution: 2dppx) and (min-width: 1280px) {
+  screen and (min-resolution: 192dpi) and (min-width: 1280px),
+  screen and (min-resolution: 2dppx) and (min-width: 1280px) {
   .leave__card-wrapper {
     background-image: url('../../img/form-leave-2x.png');
     background-size: 492px;
     background-position: top;
-
   }
 }
 
@@ -381,20 +380,4 @@ screen and (min-resolution: 2dppx) and (min-width: 1280px) {
   font-weight: 400;
   line-height: 1.5;
   color: rgba(255, 255, 255, 0.7);
-}
-
-/* Временные стили для валидации формы */
-
-.error {
-  border-color: red;
-}
-
-.leave__form-btn {
-  pointer-events: none;
-}
-
-.leave__form-btn[disabled] {
-  background-color: #ccc;
-  color: #888;
-  cursor: not-allowed;
 }

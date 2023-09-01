@@ -1,5 +1,6 @@
 .hero {
-  padding-block: 8px 21px;
+  padding-top: 16px;
+  padding-bottom: 96px;
   color: var(--white-color);
 }
 
@@ -24,7 +25,6 @@
   position: relative;
   justify-content: flex-end;
   border-radius: 16px;
-
   width: clamp(278px, calc(100vw - 40px), 335px);
   height: clamp(604px, 189vw, 708px);
   padding-inline: 20px;
@@ -37,21 +37,17 @@
   display: flex;
   justify-content: center;
   align-items: center;
-
   width: 295px;
   width: clamp(250px, 78.67vw, 295px);
   height: 52px;
-
   color: var(--color-white);
   font-size: 14px;
   font-style: normal;
   font-weight: 700;
   line-height: 1.71;
-
   border-radius: 12px;
   border: none;
   background: var(--color-green);
-
   transition: background-color var(--transition-dur-and-func);
 }
 
@@ -64,17 +60,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
-
   width: 38px;
   height: 38px;
-
   position: absolute;
   bottom: 14px;
   right: 14px;
-
   border-radius: 50%;
   background-color: var(--color-white);
-
   transition: background-color var(--transition-dur-and-func);
 }
 
@@ -194,7 +186,7 @@
 
 /**
   |============================
-  | Desctop Styles
+  | Desktop Styles
   |============================
 */
 

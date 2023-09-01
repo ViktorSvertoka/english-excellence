@@ -56,6 +56,7 @@
   letter-spacing: -0.4px;
   margin-bottom: 16px;
 }
+
 .lessons__card-price {
   width: 100%;
   color: var(--color-black);
@@ -104,7 +105,12 @@
 
 .lessons__card-button:focus,
 .lessons__card-button:hover {
-  background-color: #38ae5f;
+  background-color: var(--color-dark-green);
+}
+
+.border:hover {
+  color: var(--color-green);
+  background-color: var(--color-white);
 }
 
 /**
