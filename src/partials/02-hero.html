@@ -1,21 +1,25 @@
-<section class="hero">
-  <div class="container hero-container">
+<section class="hero" id="hero">
+  <div class="hero__background hero__container">
     <h1 class="hero__title">
       Discover the joy of learning
       <span class="hero__title-current">English</span> with us!
     </h1>
-    <button
+    <a
+      class="hero__button-leave scroll-button"
       id="leave"
-      type="button"
       data-target="leave-section"
-      class="hero__button hero__button-text scroll-button"
     >
       Leave an application
-    </button>
-    <button id="footer" type="button" class="hero__button-round">
-      <svg width="20" height="20" class="hero__button-icons">
+    </a>
+    <a class="hero__button-round" id="footer">
+      <svg
+        class="hero__button-icon"
+        width="20"
+        height="20"
+        aria-label="scroll down icon"
+      >
         <use href="./sprite.svg#icon-scroll-down"></use>
       </svg>
-    </button>
+    </a>
   </div>
 </section>

@@ -1,45 +1,20 @@
 .proposal {
-  width: 100%;
+  padding-bottom: 80px;
 }
 
 .proposal__container {
   position: relative;
-  width: 100%;
-  padding-top: 40px;
-  padding-bottom: 41px;
+  width: 335px;
+  margin: 0 auto;
+  overflow: hidden;
   border-radius: 16px;
   background: linear-gradient(80deg, #4dc274 0%, #bee8cc 100%);
-  overflow: hidden;
-}
-
-@media screen and (min-width: 320px) {
-  .proposal__container {
-    width: 335px;
-    padding-top: 64px;
-    padding-bottom: 30px;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .proposal__container {
-    width: 704px;
-    padding-top: 64px;
-    padding-bottom: 30px;
-    border-radius: 30px;
-  }
-}
-
-@media screen and (min-width: 1280px) {
-  .proposal__container {
-    width: 1152px;
-    padding-top: 64px;
-    padding-bottom: 70px;
-    border-radius: 30px;
-  }
 }
 
 .proposal__heading {
   max-width: 295px;
+  padding-left: 20px;
+  padding-top: 40px;
   color: var(--color-white);
   font-weight: 700;
   font-size: 38px;
@@ -51,96 +26,20 @@
   color: var(--color-green-pseudo);
 }
 
-@media screen and (min-width: 768px) {
-  .proposal__heading {
-    max-width: 672px;
-    font-size: 60px;
-    line-height: 1.17;
-    margin-bottom: 32px;
-  }
-}
-
-@media screen and (min-width: 1280px) {
-  .proposal__heading {
-    max-width: 840px;
-    font-size: 60px;
-    line-height: 1.17;
-    margin-bottom: 72px;
-  }
-}
-
 .proposal__box {
-  padding-right: 17px;
-  padding-left: 15px;
-  width: 367px;
+  margin: 0 auto 40px;
+
   height: 456px;
   background-image: url(../../img/bg-proposal-mobile.png);
-  transform: translateX(-35px);
   background-clip: content-box;
-}
-
-@media screen and (min-width: 375px) {
-  .proposal__box {
-    transform: translateX(-35px);
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .proposal__box {
-    padding-right: 30px;
-    padding-left: 20px;
-    display: flex;
-    gap: 20px;
-    width: 754px;
-    height: 614px;
-    background-image: url(../../img/bg-proposal-tablet.png);
-    background-size: 754px 614px;
-    transform: translateX(-52px);
-    background-clip: content-box;
-  }
-}
-
-@media screen and (min-width: 1280px) {
-  .proposal__box {
-    padding-right: 0;
-    padding-left: 0;
-    display: flex;
-    gap: 92px;
-    width: 1104px;
-    height: 604px;
-    background-image: url(../../img/bg-proposal-desktop.png);
-    background-size: 1104px 604px;
-    transform: translateX(-50px);
-  }
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .proposal__wrapper {
-  width: 255px;
+  width: 295px;
   margin: 0 auto;
-  padding-top: 65px;
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
-
-@media screen and (min-width: 768px) {
-  .proposal__wrapper {
-    width: 521px;
-    margin: 0;
-    padding-left: 70px;
-    padding-top: 116px;
-    gap: 32px;
-  }
-}
-
-@media screen and (min-width: 1280px) {
-  .proposal__wrapper {
-    width: 768px;
-    margin: 0;
-    padding-left: 114px;
-    padding-top: 126px;
-    gap: 40px;
-  }
+  padding: 65px 20px 0;
 }
 
 .proposal__tittle {
@@ -149,18 +48,21 @@
   font-weight: 700;
   line-height: 1.2;
   letter-spacing: -0.4px;
+  margin-bottom: 20px;
 }
 
 .proposal__list {
-  margin: 0 auto;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   gap: 16px;
+
+  margin-bottom: 20px;
 }
 
 .proposal__item {
   display: inline-flex;
+  max-width: 255px;
   align-items: center;
   gap: 8px;
 }
@@ -182,74 +84,6 @@
   letter-spacing: -0.28px;
 }
 
-@media screen and (min-width: 768px) {
-  .proposal__tittle {
-    color: var(--color-black);
-    font-size: 40px;
-    line-height: 1.2;
-    letter-spacing: -0.8px;
-  }
-
-  .proposal__list {
-    margin: 0;
-  }
-
-  .proposal__item {
-    gap: 16px;
-  }
-
-  .proposal__item::before {
-    content: '';
-    display: inline-block;
-    width: 28px;
-    height: 28px;
-    background-image: url('../../public/check-dt.svg');
-  }
-
-  .proposal__item-text {
-    width: 405px;
-    color: var(--color-black);
-    font-size: 20px;
-    font-weight: 700;
-    line-height: 1.2;
-    letter-spacing: -0.4px;
-  }
-}
-
-@media screen and (min-width: 1280px) {
-  .proposal__tittle {
-    color: var(--color-black);
-    font-size: 40px;
-    line-height: 1.2;
-    letter-spacing: -0.8px;
-  }
-
-  .proposal__list {
-    margin: 0;
-  }
-
-  .proposal__item {
-    gap: 16px;
-  }
-
-  .proposal__item::before {
-    content: '';
-    display: inline-block;
-    width: 28px;
-    height: 28px;
-    background-image: url('../../public/check-dt.svg');
-  }
-
-  .proposal__item-text {
-    width: 610px;
-    color: var(--color-black);
-    font-size: 20px;
-    font-weight: 700;
-    line-height: 1.2;
-    letter-spacing: -0.4px;
-  }
-}
-
 .proposal__button {
   margin: 0 auto;
   display: flex;
@@ -260,7 +94,7 @@
   border-radius: 12px;
   background: var(--color-green);
   border: none;
-
+  transition: background var(--transition-dur-and-func);
 }
 
 .proposal__button:hover,
@@ -279,37 +113,95 @@
   line-height: 1.714;
 }
 
-@media screen and (min-width: 768px) {
-  .proposal__button {
-    margin: 0;
-    width: 306px;
-    height: 60px;
-  }
-
-  .proposal__button-text {
-    font-size: 18px;
-    line-height: 1.55;
-  }
-}
-
-@media screen and (min-width: 1280px) {
-  .proposal__button {
-    margin: 0;
-    width: 306px;
-    height: 60px;
-  }
-
-  .proposal__button-text {
-    font-size: 18px;
-    line-height: 1.55;
-  }
-}
-
 .proposal__pic {
   display: none;
 }
 
+/**
+  |============================
+  | Tablet Styles
+  |============================
+*/
+
 @media screen and (min-width: 768px) {
+  .proposal {
+    padding-bottom: 100px;
+  }
+
+  .proposal__container {
+    border-radius: 30px;
+    width: 704px;
+  }
+
+  .proposal__heading {
+    padding-left: 32px;
+    max-width: 672px;
+    font-size: 60px;
+    line-height: 1.17;
+    margin-bottom: 33px;
+  }
+
+  .proposal__box {
+    display: flex;
+    gap: 20px;
+    height: 614px;
+    background-image: url(../../img/bg-proposal-tablet.png);
+    background-size: 754px 614px;
+    background-clip: content-box;
+  }
+
+  .proposal__wrapper {
+    width: 521px;
+    margin: 0;
+    padding: 115px 0 32px 50px;
+    gap: 32px;
+  }
+
+  .proposal__tittle {
+    color: var(--color-black);
+    font-size: 40px;
+    line-height: 1.2;
+    letter-spacing: -0.8px;
+    margin-bottom: 32px;
+  }
+
+  .proposal__list {
+    margin-bottom: 32px;
+  }
+
+  .proposal__item {
+    gap: 16px;
+    max-width: 451px;
+  }
+
+  .proposal__item::before {
+    content: '';
+    display: inline-block;
+    width: 28px;
+    height: 28px;
+    background-image: url('../../public/check-dt.svg');
+  }
+
+  .proposal__item-text {
+    width: 405px;
+    color: var(--color-black);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: -0.4px;
+  }
+
+  .proposal__button {
+    margin: 0;
+    width: 306px;
+    height: 60px;
+  }
+
+  .proposal__button-text {
+    font-size: 18px;
+    line-height: 1.55;
+  }
+
   .proposal__pic {
     display: inline;
     width: 214px;
@@ -318,7 +210,84 @@
   }
 }
 
+/**
+  |============================
+  | Desktop Styles
+  |============================
+*/
+
 @media screen and (min-width: 1280px) {
+  .proposal {
+    padding-bottom: 150px;
+  }
+
+  .proposal__container {
+    width: 1152px;
+  }
+
+  .proposal__heading {
+    padding-left: 64px;
+    max-width: 776px;
+    font-size: 60px;
+    line-height: 1.17;
+    margin-bottom: 88px;
+  }
+
+  .proposal__box {
+    gap: 92px;
+    width: 1104px;
+    height: 604px;
+    background-image: url(../../img/bg-proposal-desktop.png);
+    background-repeat: no-repeat;
+    background-size: 1104px 604px;
+  }
+
+  .proposal__wrapper {
+    width: 768px;
+    margin: 0;
+    padding: 110px 0 40px 128px;
+  }
+
+  .proposal__tittle {
+    color: var(--color-black);
+    font-size: 40px;
+    line-height: 1.2;
+    letter-spacing: -0.8px;
+    margin-bottom: 40px;
+  }
+
+  .proposal__list {
+    margin-bottom: 39px;
+    max-width: 654px;
+  }
+
+  .proposal__item {
+    gap: 16px;
+    max-width: 654px;
+  }
+
+  .proposal__item::before {
+    content: '';
+    display: inline-block;
+    width: 28px;
+    height: 28px;
+    background-image: url('../../public/check-dt.svg');
+  }
+
+  .proposal__item-text {
+    width: 610px;
+    color: var(--color-black);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: -0.4px;
+  }
+
+  .proposal__button-text {
+    font-size: 18px;
+    line-height: 1.55;
+  }
+
   .proposal__pic {
     display: inline;
     width: 214px;

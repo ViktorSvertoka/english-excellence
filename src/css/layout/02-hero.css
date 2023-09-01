@@ -1,233 +1,238 @@
 .hero {
-  padding: 0 20px;
-  width: 100%;
-}
-@media screen and (min-width: 768px) {
-  .hero {
-    padding: 0 32px;
-  }
-}
-
-.hero-container {
-  width: 100%;
-  padding-top: 425px;
-  padding-bottom: 72px;
-  position: relative;
-  text-align: center;
-  border-radius: 16px;
-  background-image: linear-gradient(
-      114deg,
-      rgba(0, 0, 0, 0.4) 0%,
-      rgba(0, 0, 0, 0) 100%
-    ),
-    url('../../img/hero-mobile-1x.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  border-radius: 16px;
-  padding-right: 20px;
-  padding-left: 20px;
-}
-
-@media screen and (min-resolution: 192dpi),
-  screen and (min-resolution: 2dppx),
-  screen and (min-device-pixel-ratio: 2) {
-  .hero-container {
-    background-image: linear-gradient(
-        114deg,
-        rgba(0, 0, 0, 0.4) 0%,
-        rgba(0, 0, 0, 0) 100%
-      ),
-      url('../../img/hero-mobile-2x.jpg');
-  }
-}
-
-@media screen and (min-width: 375px) {
-  .hero-container {
-    width: 335px;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .hero-container {
-    width: 704px;
-    padding-top: 260px;
-    padding-bottom: 295px;
-    padding-right: 32px;
-    padding-left: 32px;
-    text-align: start;
-    border-radius: 30px;
-    background-image: linear-gradient(
-        114deg,
-        rgba(0, 0, 0, 0.4) 0%,
-        rgba(0, 0, 0, 0) 100%
-      ),
-      url('../../img/hero-tablet-1x.jpg');
-  }
-
-  @media screen and (min-resolution: 192dpi),
-    screen and (min-resolution: 2dppx),
-    screen and (min-device-pixel-ratio: 2) {
-    .hero-container {
-      background-image: linear-gradient(
-          114deg,
-          rgba(0, 0, 0, 0.4) 0%,
-          rgba(0, 0, 0, 0) 100%
-        ),
-        url('../../img/hero-tablet-2x.jpg');
-    }
-  }
-}
-
-@media screen and (min-width: 1280px) {
-  .hero-container {
-    width: 1152px;
-    padding-top: 164px;
-    padding-bottom: 164px;
-    padding-right: 64px;
-    padding-left: 64px;
-    background-image: linear-gradient(
-        114deg,
-        rgba(0, 0, 0, 0.4) 0%,
-        rgba(0, 0, 0, 0) 100%
-      ),
-      url('../../img/hero-desktop-1x.jpg');
-  }
-
-  @media screen and (min-resolution: 192dpi),
-    screen and (min-resolution: 2dppx),
-    screen and (min-device-pixel-ratio: 2) {
-    .hero-container {
-      background-image: linear-gradient(
-          114deg,
-          rgba(0, 0, 0, 0.4) 0%,
-          rgba(0, 0, 0, 0) 100%
-        ),
-        url('../../img/hero-desktop-2x.jpg');
-    }
-  }
+  padding-block: 8px 21px;
+  color: var(--white-color);
 }
 
 .hero__title {
-  max-width: 295px;
-  color: #fff;
+  margin-bottom: clamp(36px, 10.7vw, 40px);
   font-size: 38px;
+  font-size: clamp(32px, 10.14vw, 38px);
+  font-style: normal;
   font-weight: 700;
   line-height: 1.05;
-  margin-bottom: 40px;
-  text-align: start;
+  color: var(--color-white);
 }
 
 .hero__title-current {
-  color: #bee8cc;
+  color: var(--color-green-pseudo);
 }
 
-@media screen and (min-width: 768px) {
-  .hero__title {
-    max-width: 488px;
-    font-size: 60px;
-    line-height: 1.17;
-    margin-bottom: 32px;
-  }
-}
-
-@media screen and (min-width: 1280px) {
-  .hero__title {
-    max-width: 564px;
-  }
-}
-
-.hero__button {
+.hero__container {
   display: flex;
-  width: 100%;
-  height: 52px;
+  align-items: flex-end;
+  flex-direction: column;
+  position: relative;
+  justify-content: flex-end;
+
+  width: clamp(278px, calc(100vw - 40px), 335px);
+  height: clamp(604px, 189vw, 708px);
+  padding-inline: 20px;
+  padding-inline: clamp(16px, 5.334vw, 20px);
+  padding-bottom: 72px;
+  margin-inline: auto;
+}
+
+.hero__button-leave {
+  display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 12px;
-  background: #4dc274;
-  border: none;
-  margin: 0 auto;
-}
 
-.hero__button-text {
-  color: #fff;
+  width: 295px;
+  width: clamp(250px, 78.67vw, 295px);
+  height: 52px;
+
+  color: var(--color-white);
   font-size: 14px;
+  font-style: normal;
   font-weight: 700;
   line-height: 1.71;
+
+  border-radius: 12px;
+  border: none;
+  background: var(--color-green);
+
+  transition: background-color var(--transition-dur-and-func);
 }
 
-@media screen and (min-width: 768px) {
-  .hero__button {
-    width: 306px;
-    height: 60px;
-    margin: 0;
-  }
-  .hero__button-text {
-    font-size: 18px;
-    line-height: 1.55;
-  }
-}
-.hero__button:active {
-  background-color: #38ae5f;
-}
-
-.hero__button:hover,
-.hero__button:focus {
-  background-color: #38ae5f;
+.hero__button-leave:hover,
+.hero__button-leave:focus {
+  background-color: var(--color-dark-green);
 }
 
 .hero__button-round {
   display: flex;
-  align-items: center;
   justify-content: center;
-  bottom: 14px;
-  right: 14px;
+  align-items: center;
+
   width: 38px;
   height: 38px;
-  background-color: #fff;
-  border-radius: 50%;
-  color: #ffffff;
+
   position: absolute;
-  overflow: hidden;
-  border: none;
+  bottom: 14px;
+  right: 14px;
+
+  border-radius: 50%;
+  background-color: var(--color-white);
+
+  transition: background-color var(--transition-dur-and-func);
 }
 
-@media screen and (min-width: 768px) {
-  .hero__button-round {
-    bottom: 32px;
-    right: 32px;
-    width: 48px;
-    height: 48px;
+.hero__button-round:hover {
+  transform: translateY(1px);
+  background-color: var(--color-green);
+}
+
+.hero__button-icon {
+  fill: var(--color-green);
+  transition: fill var(--transition-dur-and-func);
+}
+
+.hero__button-round:hover .hero__button-icon,
+.hero__button-round:focus .hero__button-icon {
+  fill: var(--color-white);
+}
+
+.hero__background {
+  border-radius: 16px;
+  background: linear-gradient(
+      57deg,
+      rgba(0, 0, 0, 0.4) 0%,
+      rgba(0, 0, 0, 0) 100%
+    ),
+    url(../../img/hero-mobile-1x.jpg) no-repeat;
+  background-size: cover;
+}
+
+/* Retina */
+
+@media screen and (min-device-pixel-ratio: 2),
+  screen and (-webkit-min-device-pixel-ratio: 2),
+  screen and (min-resolution: 192dpi),
+  screen and (min-resolution: 2dppx) {
+  .hero__background {
+    background: linear-gradient(
+        57deg,
+        rgba(0, 0, 0, 0.4) 0%,
+        rgba(0, 0, 0, 0) 100%
+      ),
+      url(../../img/hero-mobile-2x.jpg) no-repeat;
+    background-size: cover;
   }
 }
 
-.hero__button-round:active {
-  background-color: #4dc274;
-}
-
-.hero__button-round:hover,
-.hero__button-round:focus {
-  background-color: #4dc274;
-}
-
-.hero__button-icons {
-  fill: #4dc274;
-  width: 20px;
-  height: 20px;
-}
+/**
+  |============================
+  | Tablet Styles
+  |============================
+*/
 
 @media screen and (min-width: 768px) {
-  .hero__button-icons {
+  .hero__container {
+    width: 704px;
+    height: 857px;
+    padding: 260px 32px 295px;
+    align-items: flex-start;
+    justify-content: flex-end;
+  }
+
+  .hero__title {
+    display: block;
+    max-width: 488px;
+    margin-bottom: 32px;
+    font-size: 60px;
+    line-height: 1.17;
+  }
+
+  .hero__button-leave {
+    width: 306px;
+    height: 60px;
+    color: var(--color-white);
+    font-size: 18px;
+    line-height: 1.56;
+  }
+
+  .hero__button-round {
+    width: 48px;
+    height: 48px;
+    bottom: 32px;
+    right: 32px;
+  }
+
+  .hero__button-icon {
     width: 24px;
     height: 24px;
   }
+
+  .hero__background {
+    background: linear-gradient(
+        57deg,
+        rgba(0, 0, 0, 0.4) 0%,
+        rgba(0, 0, 0, 0) 100%
+      ),
+      url(../../img/hero-tablet-1x.jpg) no-repeat;
+  }
 }
 
-.hero__button-icons:active {
-  fill: #ffffff;
+/* Retina */
+
+@media screen and (min-width: 768px) and (min-device-pixel-ratio: 2),
+  screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2),
+  screen and (min-width: 768px) and (min-resolution: 192dpi),
+  screen and (min-width: 768px) and (min-resolution: 2dppx) {
+  .hero__background {
+    background: linear-gradient(
+        57deg,
+        rgba(0, 0, 0, 0.4) 0%,
+        rgba(0, 0, 0, 0) 100%
+      ),
+      url(../../img/hero-tablet-2x.jpg) no-repeat;
+    background-size: cover;
+  }
 }
 
-.hero__button-round:hover .hero__button-icons,
-.hero__button-round:focus .hero__button-icons {
-  fill: #ffffff;
+/**
+  |============================
+  | Desctop Styles
+  |============================
+*/
+
+@media screen and (min-width: 1280px) {
+  .hero__container {
+    width: 1152px;
+    height: 629px;
+    padding: 0 64px;
+    align-items: flex-start;
+    padding-bottom: 163px;
+  }
+
+  .hero__title {
+    max-width: 564px;
+  }
+
+  .hero__background {
+    background: linear-gradient(
+        57deg,
+        rgba(0, 0, 0, 0.4) 0%,
+        rgba(0, 0, 0, 0) 100%
+      ),
+      url(../../img/hero-desktop-1x.jpg) no-repeat;
+    background-size: cover;
+  }
+}
+
+/* Retina */
+
+@media screen and (min-width: 1280px) and (min-device-pixel-ratio: 2),
+  screen and (min-width: 1280px) and (-webkit-min-device-pixel-ratio: 2),
+  screen and (min-width: 1280px) and (min-resolution: 192dpi),
+  screen and (min-width: 1280px) and (min-resolution: 2dppx) {
+  .hero__background {
+    background: linear-gradient(
+        57deg,
+        rgba(0, 0, 0, 0.4) 0%,
+        rgba(0, 0, 0, 0) 100%
+      ),
+      url(../../img/hero-desktop-2x.jpg) no-repeat;
+    background-size: cover;
+  }
 }

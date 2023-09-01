@@ -9,73 +9,27 @@
   margin-bottom: 16px;
 }
 
-@media screen and (min-width: 768px) {
-  .lessons__title {
-    font-size: 40px;
-    line-height: 1.2;
-    letter-spacing: -0.8px;
-  }
-}
-
 .lessons__subtext {
   color: rgba(18, 20, 23, 0.5);
   text-align: center;
   font-size: 14px;
   font-weight: 400;
   line-height: 1.71;
-  width: 100%;
-  margin-bottom: 0 auto 40px;
-}
 
-@media screen and (min-width: 375px) {
-  .lessons__subtext {
-    width: 335px;
-    margin-bottom: 40px;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .lessons__subtext {
-    width: 665px;
-    font-size: 18px;
-    line-height: 1.67;
-    margin-bottom: 64px;
-  }
-}
-
-@media screen and (min-width: 1280px) {
-  .lessons__subtext {
-    width: 665px;
-    font-size: 18px;
-    line-height: 1.66;
-  }
-}
-
-@media screen and (min-width: 1280px) {
-  .lessons__subtext {
-    margin: 0 auto;
-    margin-bottom: 64px;
-  }
+  margin-bottom: 40px;
 }
 
 .lessons__card-list {
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 32px;
   flex-wrap: wrap;
   margin: 0 auto;
 }
 
-@media screen and (min-width: 1280px) {
-  .lessons__card-list {
-    flex-wrap: nowrap;
-    justify-content: center;
-  }
-}
-
 .lessons__card-item {
-  width: 100%;
-  flex-shrink: 0;
+  width: 335px;
   border-radius: 16px;
   border: 1px solid var(--color-green);
   background: var(--color-white);
@@ -86,20 +40,6 @@
 .lessons__card-item:focus,
 .lessons__card-item:hover {
   box-shadow: 0 1px 6px #2e2f4214, 0 1px 1px #2e2f4229, 0 2px 1px #2e2f4214;
-}
-
-@media screen and (min-width: 768px) {
-  .lessons__card-item {
-    width: 336px;
-    padding: 32px 16px;
-  }
-}
-
-@media screen and (min-width: 1280px) {
-  .lessons__card-item {
-    width: 320px;
-    padding: 32px 32px;
-  }
 }
 
 .border {
@@ -127,17 +67,6 @@
   margin-bottom: 40px;
 }
 
-@media screen and (min-width: 768px) {
-  .lessons__card-price {
-    margin-bottom: 32px;
-  }
-}
-@media screen and (min-width: 1280px) {
-  .lessons__card-price {
-    margin-bottom: 16px;
-  }
-}
-
 .lessons__card-desc {
   width: 100%;
   height: 132px;
@@ -158,22 +87,6 @@
   color: rgba(255, 255, 255, 0.7);
 }
 
-@media screen and (min-width: 768px) {
-  .lessons__card-desc {
-    font-size: 16px;
-    margin-bottom: 20px;
-    line-height: 1.5;
-  }
-}
-
-@media screen and (min-width: 1280px) {
-  .lessons__card-desc {
-    margin-bottom: 32px;
-    width: 255px;
-    height: 148px;
-  }
-}
-
 .lessons__card-button {
   width: 100%;
   height: 52px;
@@ -192,4 +105,78 @@
 .lessons__card-button:focus,
 .lessons__card-button:hover {
   background-color: #38ae5f;
+}
+
+/**
+  |============================
+  | Tablet Styles
+  |============================
+*/
+
+@media screen and (min-width: 768px) {
+  .lessons__title {
+    font-size: 40px;
+    line-height: 1.2;
+    letter-spacing: -0.8px;
+  }
+
+  .lessons__subtext {
+    font-size: 18px;
+    line-height: 1.67;
+    margin-bottom: 64px;
+  }
+
+  .lessons__card-item {
+    width: 336px;
+    padding: 32px 16px;
+  }
+
+  .lessons__card-price {
+    margin-bottom: 32px;
+  }
+
+  .lessons__card-desc {
+    font-size: 16px;
+    margin-bottom: 20px;
+    line-height: 1.5;
+  }
+}
+
+/**
+  |============================
+  | Desktop Styles
+  |============================
+*/
+
+@media screen and (min-width: 1280px) {
+  .lessons__subtext {
+    width: 665px;
+    font-size: 18px;
+    line-height: 1.66;
+  }
+
+  .lessons__subtext {
+    margin: 0 auto;
+    margin-bottom: 64px;
+  }
+
+  .lessons__card-list {
+    flex-wrap: nowrap;
+    justify-content: center;
+  }
+
+  .lessons__card-item {
+    width: 320px;
+    padding: 32px 32px;
+  }
+
+  .lessons__card-price {
+    margin-bottom: 16px;
+  }
+
+  .lessons__card-desc {
+    margin-bottom: 32px;
+    width: 255px;
+    height: 148px;
+  }
 }
