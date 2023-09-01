@@ -52,3 +52,17 @@
   section **Our Lessons**
 
 npm run dev
+
+# Presentation
+
+![Start](./assets/01.jpg)
+
+![Team](./assets/02.jpg)
+
+![Client](./assets/03.jpg)
+
+![Prupose](./assets/04.jpg)
+
+![Tech](./assets/05.jpg)
+
+![Goodbye](./assets/06.jpg)

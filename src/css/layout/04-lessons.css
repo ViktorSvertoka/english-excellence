@@ -126,6 +126,10 @@
     margin-bottom: 64px;
   }
 
+  .lessons__card-list {
+    justify-content: flex-start;
+  }
+
   .lessons__card-item {
     width: 336px;
     padding: 32px 16px;

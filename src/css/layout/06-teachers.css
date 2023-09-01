@@ -17,6 +17,7 @@
 }
 
 .teachers__subtitle {
+  max-width: 335px;
   color: rgba(18, 20, 23, 0.5);
   font-weight: 400;
   font-size: 14px;
@@ -31,7 +32,7 @@
     font-size: 18px;
     line-height: 1.67;
     margin-bottom: 64px;
-    width: 709px;
+    max-width: 709px;
   }
 }
 
@@ -84,9 +85,6 @@
 .teachers__image {
   border-radius: 500px;
 }
-
-/* .teachers__wrapper {
-} */
 
 .teachers__specialist {
   color: var(--color-black);
