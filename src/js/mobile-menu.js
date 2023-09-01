@@ -1,51 +1,50 @@
-(() => {
-  const mobileMenu = document.querySelector('.js-menu-container');
-  const openMenuBtn = document.querySelector('.js-open-menu');
-  const closeMenuBtn = document.querySelector('.js-close-menu');
+// Получаем ссылки на элементы DOM
+const openMenuButton = document.querySelector('.js-open-menu');
+const closeMenuButton = document.querySelector('.js-close-menu');
+const mobileMenu = document.querySelector('#mobile-menu');
+const backdrop = document.querySelector('[data-menu-backdrop]');
+const menuNavLinks = document.querySelectorAll('.menu__nav-link');
 
-  const toggleMenu = () => {
-    const isMenuOpen =
-      openMenuBtn.getAttribute('aria-expanded') === 'true' || false;
-    openMenuBtn.setAttribute('aria-expanded', !isMenuOpen);
-    mobileMenu.classList.toggle('is-open');
+// Функция для открытия мобильного меню
+function openMobileMenu() {
+  mobileMenu.classList.add('is-open');
+  backdrop.classList.remove('is-hidden');
+  document.body.classList.add('no-scroll'); // Добавляем класс, чтобы предотвратить скроллинг фона
+}
 
-    const scrollLockMethod = !isMenuOpen
-      ? 'disableBodyScroll'
-      : 'enableBodyScroll';
-    bodyScrollLock[scrollLockMethod](document.body);
-  };
+// Функция для закрытия мобильного меню
+function closeMobileMenu() {
+  mobileMenu.classList.remove('is-open');
+  backdrop.classList.add('is-hidden');
+  document.body.classList.remove('no-scroll'); // Удаляем класс, разрешая скроллинг фона
+}
 
-  openMenuBtn.addEventListener('click', toggleMenu);
-  closeMenuBtn.addEventListener('click', toggleMenu);
+// Обработчик клика на кнопку открытия меню
+openMenuButton.addEventListener('click', () => {
+  openMobileMenu();
+});
 
-  // Close the mobile menu on wider screens if the device orientation changes
-  window.matchMedia('(min-width: 768px)').addEventListener('change', e => {
-    if (!e.matches) return;
-    mobileMenu.classList.remove('is-open');
-    openMenuBtn.setAttribute('aria-expanded', false);
-    bodyScrollLock.enableBodyScroll(document.body);
+// Обработчик клика на кнопку закрытия меню
+closeMenuButton.addEventListener('click', () => {
+  closeMobileMenu();
+});
+
+// Обработчик клика на бекдроп для закрытия меню
+backdrop.addEventListener('click', () => {
+  closeMobileMenu();
+});
+
+// Обработчик клика на элементы меню для перехода к соответствующей секции и закрытия меню
+menuNavLinks.forEach(link => {
+  link.addEventListener('click', () => {
+    const targetId = link.getAttribute('href').substring(1);
+    const targetSection = document.getElementById(targetId);
+
+    if (targetSection) {
+      // Прокручиваем к целевой секции
+      targetSection.scrollIntoView({ behavior: 'smooth' });
+      // Закрываем меню
+      closeMobileMenu();
+    }
   });
-})();
-
-/**
-  |============================
-  | // Backdrop Management
-  |============================
-*/
-
-(() => {
-  const refs = {
-    openModalBtn: document.querySelector('[data-menu-open-btn]'),
-    closeModalBtn: document.querySelector('[data-menu-close-btn]'),
-    modal: document.querySelector('[data-menu-backdrop]'),
-    body: document.querySelector('body'),
-  };
-
-  refs.openModalBtn.addEventListener('click', toggleModal);
-  refs.closeModalBtn.addEventListener('click', toggleModal);
-
-  function toggleModal() {
-    refs.modal.classList.toggle('is-hidden');
-    refs.body.classList.toggle('no-scroll');
-  }
-})();
+});
