@@ -8,8 +8,37 @@
   margin: 0 auto;
   overflow: hidden;
   border-radius: 16px;
+
   background: linear-gradient(80deg, #4dc274 0%, #bee8cc 100%);
+
+  overflow: hidden;
 }
+
+@media screen and (min-width: 320px) {
+  .proposal__container {
+    width: 335px;
+    padding-top: 64px;
+    padding-bottom: 30px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .proposal__container {
+    width: 704px;
+    padding-top: 64px;
+    padding-bottom: 30px;
+    border-radius: 30px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .proposal__container {
+    width: 1152px;
+    padding-top: 64px;
+    padding-bottom: 70px;
+    border-radius: 30px;
+  }
+
 
 .proposal__heading {
   max-width: 295px;
@@ -282,6 +311,55 @@
     line-height: 1.2;
     letter-spacing: -0.4px;
   }
+
+.proposal__button {
+  margin: 0 auto;
+  display: flex;
+  width: 100%;
+  height: 52px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  background: var(--color-green);
+  border: none;
+}
+
+.proposal__button:hover,
+.proposal__button:focus {
+  background: var(--color-dark-green);
+}
+
+.proposal__button:active {
+  background: var(--color-dark-green);
+}
+
+.proposal__button-text {
+  color: var(--color-white);
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.714;
+}
+
+@media screen and (min-width: 768px) {
+  .proposal__button {
+    margin: 0;
+    width: 306px;
+    height: 60px;
+  }
+
+  .proposal__button-text {
+    font-size: 18px;
+    line-height: 1.55;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .proposal__button {
+    margin: 0;
+    width: 306px;
+    height: 60px;
+  }
+
 
   .proposal__button-text {
     font-size: 18px;
