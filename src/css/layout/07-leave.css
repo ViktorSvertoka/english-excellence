@@ -93,6 +93,12 @@
   margin-bottom: 20px;
 }
 
+@media screen and (min-width: 1280px) {
+  .leave__input-group {
+    margin-bottom: 32px;
+  }
+}
+
 .leave__form-input {
   width: 100%;
   max-width: 335px;
@@ -113,11 +119,20 @@
   border-color: var(--color-green);
 }
 
-/* @media screen and (min-width: 375px) {
-  .leave__form-input {
-    min-width: 335px;
+.leave__form-input::placeholder {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.28em;
+  color: var(--color-black);
+}
+
+@media screen and (min-width: 768px) {
+  .leave__form-input::placeholder {
+    font-size: 16px;
+    line-height: 1.5em;
   }
-} */
+}
 
 .teaxtarea-input {
   width: 100%;
@@ -167,6 +182,12 @@
 }
 
 @media screen and (min-width: 768px) {
+  .leave__radio-group-title {
+    margin-bottom: 16px;
+  }
+}
+
+@media screen and (min-width: 768px) {
   .leave__radio-btn-title {
     margin-bottom: 16px;
 
@@ -186,6 +207,20 @@
 .leave__radio-label {
   padding-left: 28px;
   cursor: pointer;
+
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.71em;
+  letter-spacing: -0.28px;
+  color: var(--color-black);
+}
+
+@media screen and (min-width: 768px) {
+  .leave__radio-label {
+    font-size: 18px;
+    line-height: 1.33em;
+    letter-spacing: -0.36px;
+  }
 }
 
 .leave__radio-label::before {
@@ -252,7 +287,9 @@
   height: 52px;
   padding: 0px;
   width: 100%;
+  max-width: 335px;
   margin-bottom: 16px;
+  margin: 0 auto 16px;
 
   border: none;
   border-radius: 12px;
@@ -266,18 +303,11 @@
   transition: background-color var(--transition-dur-and-func);
 }
 
-@media screen and (min-width: 375px) {
-  .leave__form-btn {
-    padding: 14px 150px;
-    min-width: 335px;
-  }
-}
-
 @media screen and (min-width: 768px) {
   .leave__form-btn {
     padding: 16px 228px;
     min-width: 500px;
-
+    height: 60px;
     font-size: 18px;
     line-height: 1.55;
   }
@@ -291,6 +321,10 @@
 /* ==== FORM POLICY ==== */
 
 .leave__form-policy {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 355px;
+
   font-size: 12px;
   line-height: 1.33;
 
@@ -299,13 +333,10 @@
 
 @media screen and (min-width: 768px) {
   .leave__form-policy {
-    margin: 0px auto;
-    max-width: 500px;
-
     font-size: 14px;
     line-height: 1.71;
 
-    color: rgba(18, 20, 23, 0.5);
+    max-width: 500px;
   }
 }
 
@@ -380,4 +411,20 @@
   font-weight: 400;
   line-height: 1.5;
   color: rgba(255, 255, 255, 0.7);
+}
+
+/* Временные стили для валидации формы */
+
+.error {
+  border-color: red;
+}
+
+.leave__form-btn {
+  pointer-events: none;
+}
+
+.leave__form-btn[disabled] {
+  background-color: #ccc;
+  color: #888;
+  cursor: not-allowed;
 }
