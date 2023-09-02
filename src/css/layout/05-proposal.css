@@ -298,6 +298,7 @@
 
   .proposal__box {
     background: url(../../img/bg-proposal-tablet-1x.png) no-repeat center/auto;
+    background-position: calc(50% + 5px) center;
     min-height: 607px;
     padding-left: 50px;
     display: flex;
@@ -387,6 +388,7 @@
   (min-width: 768px) and (min-device-pixel-ratio: 2) {
   .proposal__box {
     background: url(../../img/bg-proposal-tablet-2x.png) no-repeat center/cover;
+    background-position: calc(50% + 5px) center;
   }
 }
 
