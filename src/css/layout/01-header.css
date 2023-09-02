@@ -314,7 +314,7 @@
   fill: var(--color-white);
   background-color: transparent;
   border: none;
-  transition: transform var(----transition-dur-and-func);
+  transition: transform var(--transition-dur-and-func);
 }
 
 .menu-close__button:hover {
