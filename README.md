@@ -1,3 +1,5 @@
+![Landing Page](./assets/screencapture.png)
+
 # Приклади написання commita на проекті
 
 ## Використовуємо такі типи коммітів:
