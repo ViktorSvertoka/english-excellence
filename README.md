@@ -36,15 +36,15 @@
 
 ![Client](./assets/03.jpg)
 
-![Prupose](./assets/04.jpg)
+![Propose](./assets/04.jpg)
 
 ![Tech](./assets/05.jpg)
 
 ![Goodbye](./assets/06.jpg)
 
-# Приклади написання commita на проекті
+# Examples of writing commits on a project
 
-## Використовуємо такі типи коммітів:
+## We use the following types of commits:
 
 - Feat(HTML) Added new functionality
 
@@ -60,9 +60,9 @@
 
 - Docs(README) Documentation update
 
-Вибираємо зі списку опис комміту який підходить під ваше завдання, у дужках
-пишемо файл у якому працювали, а в тілі коміта розписуємо що проробили (змінили)
-і тд
+Choose from the list the description of the commit that fits your task, in
+brackets we write the file in which we worked, and in the body of the commit we
+write what we did (changed) etc.
 
 - `Look at Figma layout`
   [**Layout Figma**](https://www.figma.com/file/MrdZUmIfeT1bKd8u5GWLRt/English-Excellence-2.0?type=design&node-id=0-1&mode=design&t=4jJkOR8gcvoKgG1k-0)
