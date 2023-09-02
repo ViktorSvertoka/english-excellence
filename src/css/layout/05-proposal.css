@@ -1,9 +1,9 @@
 .proposal__container {
   border-radius: 16px;
   background-image: linear-gradient(
-    80deg,
-    var(--color-green) 0%,
-    var(--color-green-pseudo) 100%
+    85deg,
+    var(--color-green) 2.25%,
+    var(--color-green-pseudo) 131.25%
   );
 }
 
@@ -29,7 +29,7 @@
   .proposal__heading {
     font-size: 38px;
     font-weight: 700;
-    line-height: 1.1;
+    line-height: 1.05;
     padding-left: 20px;
     color: var(--color-white);
   }
@@ -37,7 +37,7 @@
   .proposal__heading-current {
     font-size: 38px;
     font-weight: 700;
-    line-height: 1.1;
+    line-height: 1.05;
     color: var(--color-green-pseudo);
   }
 
@@ -162,7 +162,7 @@
   .proposal__heading {
     font-size: 38px;
     font-weight: 700;
-    line-height: 1.1;
+    line-height: 1.05;
     margin-bottom: 20px;
     padding-left: 20px;
     color: var(--color-white);
@@ -171,7 +171,7 @@
   .proposal__heading-current {
     font-size: 38px;
     font-weight: 700;
-    line-height: 1.1;
+    line-height: 1.05;
     color: var(--color-green-pseudo);
   }
 
@@ -377,8 +377,8 @@
   }
   .proposal__pic {
     position: absolute;
-    bottom: 113px;
-    right: -20px;
+    bottom: 126px;
+    right: -31px;
   }
 }
 
@@ -425,7 +425,6 @@
     min-height: 604px;
     max-width: 1104px;
     padding-left: 105px;
-    padding-top: 32px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -500,7 +499,7 @@
 
   .proposal__pic {
     position: absolute;
-    bottom: 130px;
+    bottom: 151px;
     right: 43px;
   }
 
@@ -515,5 +514,6 @@
   (min-width: 1280px) and (min-device-pixel-ratio: 2) {
   .proposal__box {
     background: url(../../img/bg-proposal-desktop-2x.png) no-repeat center/cover;
+    left: -10px;
   }
 }
