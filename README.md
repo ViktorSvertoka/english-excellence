@@ -28,6 +28,20 @@
 - Yevhenii Datsenko **Front End Developer** development and design of the
   section **Our lessons**
 
+# Presentation
+
+![Start](./assets/01.jpg)
+
+![Team](./assets/02.jpg)
+
+![Client](./assets/03.jpg)
+
+![Prupose](./assets/04.jpg)
+
+![Tech](./assets/05.jpg)
+
+![Goodbye](./assets/06.jpg)
+
 # Приклади написання commita на проекті
 
 ## Використовуємо такі типи коммітів:
@@ -50,21 +64,7 @@
 пишемо файл у якому працювали, а в тілі коміта розписуємо що проробили (змінили)
 і тд
 
-- `Look at`
+- `Look at Figma layout`
   [**Layout Figma**](https://www.figma.com/file/MrdZUmIfeT1bKd8u5GWLRt/English-Excellence-2.0?type=design&node-id=0-1&mode=design&t=4jJkOR8gcvoKgG1k-0)
 
 npm run dev
-
-# Presentation
-
-![Start](./assets/01.jpg)
-
-![Team](./assets/02.jpg)
-
-![Client](./assets/03.jpg)
-
-![Prupose](./assets/04.jpg)
-
-![Tech](./assets/05.jpg)
-
-![Goodbye](./assets/06.jpg)
