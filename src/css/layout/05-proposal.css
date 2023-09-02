@@ -120,10 +120,8 @@
   }
 
   .proposal__box {
-    background-image: url(../../img/bg-proposal-mobile-1x.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
+    background: url(../../img/bg-proposal-mobile-1x.png) no-repeat
+      center/contain;
     min-height: 455px;
     padding: 0 36px;
     display: flex;
@@ -135,10 +133,8 @@
   (min-width: 320px) and (max-width: 374px) and (min-resolution: 2dppx),
   (min-width: 320px) and (max-width: 374px) and (min-device-pixel-ratio: 2) {
   .proposal__box {
-    background-image: url(../../img/bg-proposal-mobile-2x.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
+    background: url(../../img/bg-proposal-mobile-2x.png) no-repeat
+      center/contain;
   }
 }
 
@@ -180,10 +176,8 @@
   }
 
   .proposal__box {
-    background-image: url(../../img/bg-proposal-mobile-1x.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
+    background: url(../../img/bg-proposal-mobile-1x.png) no-repeat
+      center/contain;
     min-height: 496px;
     padding: 0 36px;
     display: flex;
@@ -269,10 +263,8 @@
   (min-width: 375px) and (max-width: 767px) and (min-resolution: 2dppx),
   (min-width: 375px) and (max-width: 767px) and (min-device-pixel-ratio: 2) {
   .proposal__box {
-    background-image: url(../../img/bg-proposal-mobile-2x.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
+    background: url(../../img/bg-proposal-mobile-2x.png) no-repeat
+      center/contain;
   }
 }
 
@@ -305,10 +297,7 @@
   }
 
   .proposal__box {
-    background-image: url(../../img/bg-proposal-tablet-1x.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: auto;
+    background: url(../../img/bg-proposal-tablet-1x.png) no-repeat center/auto;
     min-height: 607px;
     padding-left: 50px;
     display: flex;
@@ -397,10 +386,7 @@
   (min-width: 768px) and (min-resolution: 2dppx),
   (min-width: 768px) and (min-device-pixel-ratio: 2) {
   .proposal__box {
-    background-image: url(../../img/bg-proposal-tablet-2x.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    background: url(../../img/bg-proposal-tablet-2x.png) no-repeat center/cover;
   }
 }
 
@@ -435,10 +421,7 @@
   }
 
   .proposal__box {
-    background-image: url(../../img/bg-proposal-desktop-1x.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    background: url(../../img/bg-proposal-desktop-1x.png) no-repeat center/cover;
     min-height: 604px;
     max-width: 1104px;
     padding-left: 105px;
@@ -531,9 +514,6 @@
   (min-width: 1280px) and (min-resolution: 2dppx),
   (min-width: 1280px) and (min-device-pixel-ratio: 2) {
   .proposal__box {
-    background-image: url(../../img/bg-proposal-desktop-2x.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    background: url(../../img/bg-proposal-desktop-2x.png) no-repeat center/cover;
   }
 }
