@@ -303,6 +303,11 @@
   transition: background-color var(--transition-dur-and-func);
 }
 
+.leave__form-btn:hover,
+.leave__form-btn:focus {
+  background-color: var(--color-dark-green);
+}
+
 @media screen and (min-width: 768px) {
   .leave__form-btn {
     padding: 16px 228px;
@@ -311,11 +316,6 @@
     font-size: 18px;
     line-height: 1.55;
   }
-}
-
-.leave__form-btn:hover,
-.leave__form-btn:focus {
-  background-color: #38ae5f;
 }
 
 /* ==== FORM POLICY ==== */
@@ -411,20 +411,4 @@
   font-weight: 400;
   line-height: 1.5;
   color: rgba(255, 255, 255, 0.7);
-}
-
-/* Временные стили для валидации формы */
-
-.error {
-  border-color: red;
-}
-
-.leave__form-btn {
-  pointer-events: none;
-}
-
-.leave__form-btn[disabled] {
-  background-color: #ccc;
-  color: #888;
-  cursor: not-allowed;
 }

@@ -58,11 +58,10 @@
 
 .reviews__item {
   width: 100%;
-  height: 278px;
   flex-shrink: 0;
   border-radius: 16px;
   background: var(--color-grey);
-  padding: 20px;
+  padding: 20px 20px 40px 20px;
 }
 
 @media screen and (min-width: 375px) {
@@ -74,16 +73,14 @@
 @media screen and (min-width: 768px) {
   .reviews__item {
     width: 336px;
-    height: 326px;
     border-radius: 30px;
-    padding: 32px 16px 0 16px;
+    padding: 32px 16px 40px 16px;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .reviews__item {
     width: 320px;
-    height: 326px;
   }
 }
 
