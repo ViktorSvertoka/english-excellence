@@ -1,6 +1,6 @@
 ![Landing Page](./assets/screencapture.png)
 
-### Development team :
+# Development team :
 
 - Viktor Svertoka **Team Lead** development and design of the section
   **Reviews**
@@ -17,16 +17,16 @@
   section **Footer**
 
 - Tetiana Zorii **Front End Developer** development and design of the section
-  **Propose**
+  **Proposal to leave an application**
 
 - Vadym Andriushchenko **Front End Developer** development and design of the
   section **Our teachers**
 
 - Yuliia Nazymko **Front End Developer** development and design of the section
-  **About Us**
+  **About us**
 
 - Yevhenii Datsenko **Front End Developer** development and design of the
-  section **Our Lessons**
+  section **Our lessons**
 
 # Приклади написання commita на проекті
 
