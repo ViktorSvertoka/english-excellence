@@ -27,18 +27,18 @@
   }
 
   .proposal__heading {
-    color: var(--color-white);
     font-size: 38px;
     font-weight: 700;
     line-height: 1.1;
     padding-left: 20px;
+    color: var(--color-white);
   }
 
   .proposal__heading-current {
-    color: var(--color-green-pseudo);
     font-size: 38px;
     font-weight: 700;
     line-height: 1.1;
+    color: var(--color-green-pseudo);
   }
 
   .proposal {
@@ -50,32 +50,32 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--color-green);
     border-radius: 50%;
     width: 20px;
     height: 20px;
+    background-color: var(--color-green);
   }
 
   .proposal__icon {
-    fill: var(--color-white);
     width: 16px;
     height: 14px;
+    fill: var(--color-white);
   }
 
   .proposal__tittle {
-    color: var(--color-black);
     font-size: 18px;
     font-weight: 700;
     line-height: 1.2;
     letter-spacing: -0.02em;
+    color: var(--color-black);
   }
 
   .proposal__item-text {
-    color: var(--color-black);
     font-size: 12px;
     font-weight: 700;
     line-height: 1.4;
     letter-spacing: -0.02em;
+    color: var(--color-black);
   }
 
   .proposal__list {
@@ -106,11 +106,11 @@
     align-items: center;
     border-radius: 12px;
     padding: 14px 0;
-    color: var(--color-white);
-    background-color: var(--color-green);
     font-size: 14px;
     font-weight: 700;
     line-height: 1.7;
+    color: var(--color-white);
+    background-color: var(--color-green);
     transition: background-color var(--transition-dur-and-func);
   }
 
@@ -164,19 +164,19 @@
   }
 
   .proposal__heading {
-    color: var(--color-white);
     font-size: 38px;
     font-weight: 700;
     line-height: 1.1;
     margin-bottom: 20px;
     padding-left: 20px;
+    color: var(--color-white);
   }
 
   .proposal__heading-current {
-    color: var(--color-green-pseudo);
     font-size: 38px;
     font-weight: 700;
     line-height: 1.1;
+    color: var(--color-green-pseudo);
   }
 
   .proposal__box {
@@ -194,32 +194,33 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--color-green);
     border-radius: 50%;
     width: 20px;
     height: 20px;
+    background-color: var(--color-green);
   }
+
   .proposal__icon {
-    fill: var(--color-white);
     width: 18px;
     height: 16px;
+    fill: var(--color-white);
   }
 
   .proposal__tittle {
-    color: var(--color-black);
     font-size: 20px;
     font-weight: 700;
     line-height: 1.2;
     letter-spacing: -0.02em;
+    color: var(--color-black);
   }
 
   .proposal__item-text {
-    color: var(--color-black);
     font-size: 14px;
     font-weight: 700;
     line-height: 1.4;
     letter-spacing: -0.02em;
     width: 227px;
+    color: var(--color-black);
   }
 
   .proposal__list {
@@ -250,11 +251,11 @@
     align-items: center;
     border-radius: 12px;
     padding: 14px 0;
-    color: var(--color-white);
-    background-color: var(--color-green);
     font-size: 14px;
     font-weight: 700;
     line-height: 1.7;
+    color: var(--color-white);
+    background-color: var(--color-green);
     transition: background-color var(--transition-dur-and-func);
   }
 
@@ -288,19 +289,19 @@
     max-width: 448px;
   }
   .proposal__heading {
-    color: var(--color-white);
     font-size: 60px;
     font-weight: 700;
     line-height: 1.2;
     margin-bottom: 33px;
     padding-left: 32px;
+    color: var(--color-white);
   }
 
   .proposal__heading-current {
-    color: var(--color-green-pseudo);
     font-size: 60px;
     font-weight: 700;
     line-height: 1.2;
+    color: var(--color-green-pseudo);
   }
 
   .proposal__box {
@@ -336,11 +337,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--color-green);
     border-radius: 50%;
     min-width: 28px;
     height: 28px;
+    background-color: var(--color-green);
   }
+
   .proposal__icon {
     fill: var(--color-white);
     width: 24px;
@@ -371,12 +373,12 @@
     align-items: center;
     border-radius: 12px;
     padding: 16px 0;
-    color: var(--color-white);
-    background-color: var(--color-green);
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
     line-height: 1.5;
+    color: var(--color-white);
+    background-color: var(--color-green);
     transition: background-color var(--transition-dur-and-func);
   }
 
@@ -417,19 +419,19 @@
 
   .proposal__heading {
     width: 830px;
-    color: var(--color-white);
     font-size: 60px;
     font-weight: 700;
     line-height: 1.2;
     margin-bottom: 72px;
     padding-left: 64px;
+    color: var(--color-white);
   }
 
   .proposal__heading-current {
-    color: var(--color-green-pseudo);
     font-size: 60px;
     font-weight: 700;
     line-height: 1.2;
+    color: var(--color-green-pseudo);
   }
 
   .proposal__box {
@@ -468,11 +470,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--color-green);
     border-radius: 50%;
     width: 28px;
     height: 28px;
+    background-color: var(--color-green);
   }
+
   .proposal__icon {
     fill: var(--color-white);
     width: 24px;
