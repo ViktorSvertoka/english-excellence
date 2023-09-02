@@ -1,6 +1,6 @@
 const useElement = document.querySelector('.menu-open__use');
 
-// Функция для обработки изменения медиа-запроса
+// Функція для обробки зміни медіа-запиту
 function handleMediaChange(mediaQuery) {
   if (mediaQuery.matches) {
     useElement.setAttribute('xlink:href', './sprite.svg#icon-menu');
@@ -9,9 +9,9 @@ function handleMediaChange(mediaQuery) {
   }
 }
 
-// Создаем медиа-запрос для разрешения более 768px
+// Створюємо медіа-запит для дозволу більше 768px
 const mediaQuery = window.matchMedia('(min-width: 768px)');
 
-// Изменяем ссылку при загрузке страницы и при изменении размера окна
+// Змінюємо посилання при завантаженні сторінки та зміні розміру вікна
 handleMediaChange(mediaQuery);
 mediaQuery.addEventListener('change', handleMediaChange);

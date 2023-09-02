@@ -1,49 +1,49 @@
-// Получаем ссылки на элементы DOM
+// Отримуємо посилання на елементи DOM
 const openMenuButton = document.querySelector('.js-open-menu');
 const closeMenuButton = document.querySelector('.js-close-menu');
 const mobileMenu = document.querySelector('#mobile-menu');
 const backdrop = document.querySelector('[data-menu-backdrop]');
 const menuNavLinks = document.querySelectorAll('.menu__nav-link');
 
-// Функция для открытия мобильного меню
+// Функція для відкриття мобільного меню
 function openMobileMenu() {
   mobileMenu.classList.add('is-open');
   backdrop.classList.remove('is-hidden');
-  document.body.classList.add('no-scroll'); // Добавляем класс, чтобы предотвратить скроллинг фона
+  document.body.classList.add('no-scroll'); // Додаємо клас, щоб запобігти скролінгу фону
 }
 
-// Функция для закрытия мобильного меню
+// Функція для закриття мобільного меню
 function closeMobileMenu() {
   mobileMenu.classList.remove('is-open');
   backdrop.classList.add('is-hidden');
-  document.body.classList.remove('no-scroll'); // Удаляем класс, разрешая скроллинг фона
+  document.body.classList.remove('no-scroll'); // Видаляємо клас, дозволяючи скролінг тла
 }
 
-// Обработчик клика на кнопку открытия меню
+// Обробник кліку на кнопку відкриття меню
 openMenuButton.addEventListener('click', () => {
   openMobileMenu();
 });
 
-// Обработчик клика на кнопку закрытия меню
+// Обробник кліку на кнопку закриття меню
 closeMenuButton.addEventListener('click', () => {
   closeMobileMenu();
 });
 
-// Обработчик клика на бекдроп для закрытия меню
+// Обробник кліка на бекдроп для закриття меню
 backdrop.addEventListener('click', () => {
   closeMobileMenu();
 });
 
-// Обработчик клика на элементы меню для перехода к соответствующей секции и закрытия меню
+// Обробник кліку на елементи меню для переходу до відповідної секції та закриття меню
 menuNavLinks.forEach(link => {
   link.addEventListener('click', () => {
     const targetId = link.getAttribute('href').substring(1);
     const targetSection = document.getElementById(targetId);
 
     if (targetSection) {
-      // Прокручиваем к целевой секции
+      // Прокручуємо до цільової секції
       targetSection.scrollIntoView({ behavior: 'smooth' });
-      // Закрываем меню
+      // Закриваємо меню
       closeMobileMenu();
     }
   });

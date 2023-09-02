@@ -1,5 +1,5 @@
 const anchors = document.querySelectorAll('a[href*="#"]');
-const buttons = document.querySelectorAll('.scroll-button'); // Предположим, у вас есть кнопки с классом 'scroll-button'
+const buttons = document.querySelectorAll('.scroll-button'); // Припустимо, у вас є кнопки із класом 'scroll-button'
 
 function scrollToTarget(element, targetId) {
   element.preventDefault();
@@ -19,7 +19,7 @@ for (let anchor of anchors) {
 
 for (let button of buttons) {
   button.addEventListener('click', function (element) {
-    const targetId = button.getAttribute('data-target'); // Предположим, вы используете атрибут 'data-target' для указания целевого элемента
+    const targetId = button.getAttribute('data-target'); // Припустимо, що ви використовуєте атрибут 'data-target' для вказівки цільового елемента
     scrollToTarget(element, targetId);
   });
 }
