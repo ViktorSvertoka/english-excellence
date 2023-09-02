@@ -19,6 +19,7 @@
     "lodash.throttle": "^4.1.1",
     "modern-normalize": "^2.0.0",
     "vite-plugin-full-reload": "^1.0.5",
-    "vite-plugin-html-inject": "^1.0.1"
+    "vite-plugin-html-inject": "^1.0.1",
+    "wow.js": "^1.2.2"
   }
 }
