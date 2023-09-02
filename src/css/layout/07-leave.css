@@ -19,13 +19,11 @@
 @media screen and (max-width: 374px) {
   .leave__title {
     margin-bottom: 14px;
-
     text-align: center;
     font-size: 28px;
     font-weight: 600;
     line-height: 1.12;
     letter-spacing: -0.02em;
-
     color: var(--color-black);
   }
 }
@@ -33,13 +31,11 @@
 @media screen and (min-width: 375px) {
   .leave__title {
     margin-bottom: 14px;
-
     text-align: center;
     font-size: 32px;
     font-weight: 600;
     line-height: 1.12;
     letter-spacing: -0.02em;
-
     color: var(--color-black);
   }
 }
@@ -47,7 +43,6 @@
 @media screen and (min-width: 768px) {
   .leave__title {
     margin: 0 auto 16px;
-
     font-size: 40px;
     font-weight: 700;
     line-height: 1.2;
@@ -61,15 +56,13 @@
   text-align: center;
   font-size: 14px;
   line-height: 1.71;
-
-  color: var(--color-black);
+  color: rgba(18, 20, 23, 0.5);
 }
 
 @media screen and (min-width: 768px) {
   .leave__text {
     max-width: 586px;
     margin: 0 auto 64px;
-
     font-size: 18px;
     line-height: 1.66;
     color: rgba(18, 20, 23, 0.5);
@@ -82,7 +75,7 @@
   }
 }
 
-/* ==== FORM INPUTS ==== */
+/*  FORM INPUTS */
 
 .leave__input-group {
   display: flex;
@@ -104,10 +97,8 @@
   max-width: 335px;
   height: 50px;
   padding: 16px 18px;
-
   border-radius: 12px;
   border: 1px solid rgba(18, 20, 23, 0.1);
-
   background-color: transparent;
   outline: transparent;
   resize: none;
@@ -150,7 +141,7 @@
   }
 }
 
-/* ==== RADIO BTN ==== */
+/*  RADIO BTN  */
 
 .leave__radio-group {
   display: flex;
@@ -164,7 +155,6 @@
 @media screen and (min-width: 768px) {
   .leave__radio-group {
     flex-direction: row;
-
     gap: 16px;
     margin: 0px 0px 32px 0px;
   }
@@ -172,12 +162,10 @@
 
 .leave__radio-group-title {
   margin-bottom: 14px;
-
   font-size: 18px;
   font-weight: 600;
   line-height: 1.33;
   letter-spacing: -0.02em;
-
   color: var(--color-black);
 }
 
@@ -190,7 +178,6 @@
 @media screen and (min-width: 768px) {
   .leave__radio-btn-title {
     margin-bottom: 16px;
-
     font-size: 20px;
     line-height: 1.2;
   }
@@ -207,7 +194,6 @@
 .leave__radio-label {
   padding-left: 28px;
   cursor: pointer;
-
   font-size: 14px;
   font-weight: 400;
   line-height: 1.71em;
@@ -228,11 +214,9 @@
   display: block;
   width: 18px;
   height: 18px;
-
   border: 2px solid rgba(18, 20, 23, 0.2);
   background-color: var(--color-white);
   border-radius: 50%;
-
   position: absolute;
   top: 3px;
   left: 0;
@@ -252,12 +236,10 @@
   display: block;
   width: 10px;
   height: 10px;
-
   border: 2px solid var(--color-green);
   background-color: var(--color-green);
   border-radius: 50%;
   opacity: 0;
-
   position: absolute;
   top: 7px;
   left: 4px;
@@ -280,7 +262,7 @@
   opacity: 1;
 }
 
-/* ==== FORM BTN  ==== */
+/*  FORM BTN   */
 
 .leave__form-btn {
   display: block;
@@ -290,11 +272,9 @@
   max-width: 335px;
   margin-bottom: 16px;
   margin: 0 auto 16px;
-
   border: none;
   border-radius: 12px;
   background-color: var(--color-green);
-
   color: var(--color-white);
   font-size: 14px;
   font-style: normal;
@@ -318,16 +298,14 @@
   }
 }
 
-/* ==== FORM POLICY ==== */
+/*  FORM POLICY  */
 
 .leave__form-policy {
   margin: 0 auto;
   width: 100%;
   max-width: 355px;
-
   font-size: 12px;
   line-height: 1.33;
-
   color: rgba(18, 20, 23, 0.5);
 }
 
@@ -335,7 +313,6 @@
   .leave__form-policy {
     font-size: 14px;
     line-height: 1.71;
-
     max-width: 500px;
   }
 }
@@ -345,7 +322,7 @@
   text-decoration-color: rgba(18, 20, 23, 0.5);
 }
 
-/* ==== ADDITIONAL WRAPPER ==== */
+/*  ADDITIONAL WRAPPER  */
 
 .leave__wrapper {
   display: flex;
@@ -358,7 +335,7 @@
   }
 }
 
-/* ==== DESKTOP IMAGRE CARD ==== */
+/*  DESKTOP IMAGRE CARD  */
 
 @media screen and (max-width: 1280px) {
   .leave__card-wrapper {
@@ -373,7 +350,6 @@
     padding: 0px 20px 40px 20px;
     justify-content: flex-end;
     align-items: center;
-
     background-image: url('../../img/form-leave-1x.png');
     background-repeat: no-repeat;
     background-color: var(--color-green);
