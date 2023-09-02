@@ -213,7 +213,7 @@
     <main>
       <section class="hero" id="hero">
   <div class="hero__background hero__container">
-    <h1 class="hero__title animate__animated animate__backInLeft">
+    <h1 class="hero__title wow animate__animated animate__backInLeft">
       Discover the joy of learning
       <span class="hero__title-current">English</span> with us!
     </h1>
@@ -244,7 +244,10 @@
       We are dedicated to providing engaging and effective English language
       courses in a supportive and stimulating learning environment
     </p>
-    <div class="about__box">
+    <div
+      class="about__box wow animate__animated animate__fadeInRightBig"
+      data-wow-duration="2s"
+    >
       <ol class="about__list">
         <li class="about__item">
           <div class="about__container">
@@ -290,7 +293,10 @@
       rapid language acquisition through practical tasks and real-world
       scenarios.
     </p>
-    <ul class="lessons__card-list">
+    <ul
+      class="lessons__card-list wow animate__animated animate__fadeInLeftBig"
+      data-wow-duration="2s"
+    >
       <li class="lessons__card-item">
         <h3 class="lessons__card-title">Practice</h3>
         <p class="lessons__card-price">40$ / month</p>
@@ -345,7 +351,10 @@
       <section class="proposal section">
   <div class="proposal__container">
     <h2 class="visually-hidden">Proposal to leave an application</h2>
-    <p class="proposal__heading">
+    <p
+      class="proposal__heading wow animate__animated animate__zoomIn"
+      data-wow-duration="2s"
+    >
       Master the <span class="proposal__heading-current">Language</span> with
       Our English Package!
     </p>
@@ -414,7 +423,10 @@
       Discover our team of dedicated educators, committed to guiding you on your
       journey to English proficiency with personalized and engaging instruction
     </p>
-    <ul class="teachers__list">
+    <ul
+      class="teachers__list wow animate__animated animate__bounceInDown"
+      data-wow-duration="2s"
+    >
       <li class="teachers__item">
         <img
           class="teachers__image"
@@ -611,7 +623,10 @@
       Hear from our students about their learning journey with us, as they share
       their experiences, progress, and the transformative impact
     </p>
-    <div class="reviews__box">
+    <div
+      class="reviews__box wow animate__animated animate__bounceInUp"
+      data-wow-duration="2s"
+    >
       <ul class="reviews__list">
         <li class="reviews__item">
           <div class="reviews__wrapper">
@@ -1153,5 +1168,9 @@
     </footer>
 
     
+    <script src="./js/wow.js"></script>
+    <script>
+      new WOW().init();
+    </script>
   </body>
 </html>
