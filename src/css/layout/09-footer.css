@@ -74,6 +74,7 @@
   line-height: 1.29;
   letter-spacing: -0.02em;
   color: rgba(255, 255, 255, 0.6);
+  font-style: normal;
 }
 
 .footer-contacts__link {
@@ -81,6 +82,7 @@
   font-weight: 600;
   line-height: 1.29;
   color: var(--color-white);
+  font-style: normal;
 }
 
 .footer-nav {
