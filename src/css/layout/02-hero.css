@@ -91,8 +91,7 @@
   transition: fill var(--transition-dur-and-func);
 }
 
-.hero__button-round:hover .hero__button-icon,
-.hero__button-round:focus .hero__button-icon {
+.hero__button-round:hover .hero__button-icon {
   fill: var(--color-white);
 }
 

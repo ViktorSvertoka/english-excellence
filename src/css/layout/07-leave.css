@@ -385,3 +385,11 @@
   line-height: 1.5;
   color: rgba(255, 255, 255, 0.7);
 }
+
+.valid {
+  border-color: var(--color-valid);
+}
+
+.invalid {
+  border-color: var(--color-invalid);
+}

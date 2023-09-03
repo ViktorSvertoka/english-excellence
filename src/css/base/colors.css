@@ -7,5 +7,8 @@
   --color-grey: #f3f5f6;
   --color-white: #ffffff;
 
+  --color-valid: #4dc274;
+  --color-invalid: #ee323d;
+
   --transition-dur-and-func: 750ms cubic-bezier(0.4, 0, 0.2, 1);
 }
