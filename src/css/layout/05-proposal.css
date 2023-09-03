@@ -42,7 +42,8 @@
   }
 
   .proposal {
-    padding: 20px 0;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 
   .proposal__wrap {
