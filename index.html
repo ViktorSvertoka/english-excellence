@@ -24,12 +24,12 @@
     />
     <title>English Excellence</title>
     
-    <script type="module" crossorigin src="/english-excellence/assets/index-0ba693e1.js"></script>
-    <link rel="stylesheet" href="/english-excellence/assets/index-6927233a.css">
+    <script type="module" crossorigin src="/english-excellence/assets/index-96a07267.js"></script>
+    <link rel="stylesheet" href="/english-excellence/assets/index-ddc8455d.css">
   </head>
   <body>
     <header>
-      <div class="header-container">
+      <div class="header-container" id="header__top">
   <!-- Navigation -->
   <a href="" class="header__logo"
     >english<span class="header__logo-span">excellence</span>.</a
@@ -553,32 +553,25 @@
           </p>
         </div>
       </div>
-      <form class="leave__form" id="leaveForm">
+      <form class="leave__form leave__feedback" id="leaveForm">
         <div class="leave__input-group">
           <input
             class="leave__form-input"
             type="text"
             name="user-name"
             placeholder="Name"
-            pattern="[a-zA-Zа-яА-ЯіІїЇєЄґҐʼ]+"
-            title="Oleksii"
-            required
           />
           <input
             class="leave__form-input"
             type="email"
             name="user-email"
             placeholder="Email"
-            required
           />
           <input
             class="leave__form-input"
             type="tel"
             name="user-phone"
             placeholder="Phone"
-            pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
-            title="xxx-xxx-xx-xx"
-            required
           />
           <textarea
             class="leave__form-input teaxtarea-input"
@@ -749,7 +742,7 @@
     <div class="footer__content-wrap">
       <div class="footer__logo-adress-wrap">
         <!-- Logo -->
-        <a class="footer__logo link" href="./index.html">
+        <a class="footer__logo link scroll-button" href="#header__top">
           english<span class="footer__logo-span">excellence</span>.</a
         >
         <!-- Contacts -->
