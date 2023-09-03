@@ -276,7 +276,6 @@
   background-color: var(--color-green);
   color: var(--color-white);
   font-size: 14px;
-  font-style: normal;
   font-weight: 700;
   line-height: 1.71;
   transition: background-color var(--transition-dur-and-func);
@@ -382,7 +381,6 @@
 .leave__card-text {
   text-align: center;
   font-size: 16px;
-  font-style: normal;
   font-weight: 400;
   line-height: 1.5;
   color: rgba(255, 255, 255, 0.7);

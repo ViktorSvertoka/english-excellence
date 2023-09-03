@@ -3,21 +3,18 @@
 }
 
 .footer-container {
-  /* width: 375px; */
   text-align: start;
   padding: 40px 20px 20px;
 }
 
 @media screen and (min-width: 768px) {
   .footer-container {
-    /* width: 760px; */
     padding: 32px 32px 16px;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .footer-container {
-    /* width: 1280px; */
     padding: 64px 128px 23px;
   }
 }
@@ -72,9 +69,7 @@
 }
 
 .footer-contact__text {
-  font-family: Manrope;
   font-size: 14px;
-  font-style: normal;
   font-weight: 400;
   line-height: 1.29;
   letter-spacing: -0.02em;
@@ -83,7 +78,6 @@
 
 .footer-contacts__link {
   font-size: 14px;
-  font-style: normal;
   font-weight: 600;
   line-height: 1.29;
   color: var(--color-white);
@@ -227,9 +221,7 @@
 }
 
 .footer-text {
-  font-family: Manrope;
   font-size: 14px;
-  font-style: normal;
   font-weight: 400;
   line-height: 1.29;
   letter-spacing: -0.018;

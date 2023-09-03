@@ -10,6 +10,7 @@
 .about__inner {
   position: relative;
 }
+
 .about__inner::after {
   position: absolute;
   bottom: 4px;

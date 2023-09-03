@@ -104,6 +104,7 @@
   line-height: 1.71;
   text-align: center;
 }
+
 @media screen and (min-width: 768px) {
   .teachers__job-title {
     font-size: 16px;
