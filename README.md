@@ -4,6 +4,7 @@
 
 - Viktor Svertoka **Team Lead** development and design of the section
   **Reviews**
+  [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ViktorSvertoka)
 
 - Andrew Motko **Scrum Master** development and design of the section **Header**
 
