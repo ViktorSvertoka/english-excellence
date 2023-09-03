@@ -241,3 +241,19 @@
   text-align: right;
   gap: 18px;
 }
+
+@keyframes pulseAnimation {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.footer__link img {
+  animation: pulseAnimation 2s infinite;
+}
