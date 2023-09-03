@@ -27,23 +27,22 @@
   }
 
   .proposal__heading {
-    font-size: 38px;
     font-weight: 700;
+    font-size: 38px;
     line-height: 1.05;
     padding-left: 20px;
     color: var(--color-white);
   }
 
   .proposal__heading-current {
-    font-size: 38px;
     font-weight: 700;
+    font-size: 38px;
     line-height: 1.05;
     color: var(--color-green-pseudo);
   }
 
   .proposal {
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 20px 0;
   }
 
   .proposal__wrap {
@@ -63,16 +62,16 @@
   }
 
   .proposal__tittle {
-    font-size: 18px;
     font-weight: 700;
+    font-size: 18px;
     line-height: 1.2;
     letter-spacing: -0.02em;
     color: var(--color-black);
   }
 
   .proposal__item-text {
-    font-size: 12px;
     font-weight: 700;
+    font-size: 12px;
     line-height: 1.4;
     letter-spacing: -0.02em;
     color: var(--color-black);
@@ -89,12 +88,12 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    column-gap: 8px;
+    gap: 8px;
   }
 
   .proposal__tittle {
-    font-size: 20px;
     font-weight: 700;
+    font-size: 20px;
     line-height: 1.2;
     letter-spacing: -0.02em;
     margin-bottom: 20px;
@@ -104,11 +103,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.7;
     border-radius: 12px;
     padding: 14px 0;
-    font-size: 14px;
-    font-weight: 700;
-    line-height: 1.7;
     color: var(--color-white);
     background-color: var(--color-green);
     transition: background-color var(--transition-dur-and-func);
@@ -149,10 +148,10 @@
   }
 
   .proposal__container {
-    max-width: 335px;
     margin: 0 auto;
     padding-top: 40px;
     padding-bottom: 20px;
+    max-width: 335px;
   }
 
   .proposal__pic {
@@ -160,8 +159,8 @@
   }
 
   .proposal__heading {
-    font-size: 38px;
     font-weight: 700;
+    font-size: 38px;
     line-height: 1.05;
     margin-bottom: 20px;
     padding-left: 20px;
@@ -169,8 +168,8 @@
   }
 
   .proposal__heading-current {
-    font-size: 38px;
     font-weight: 700;
+    font-size: 38px;
     line-height: 1.05;
     color: var(--color-green-pseudo);
   }
@@ -178,19 +177,19 @@
   .proposal__box {
     background: url(../../img/bg-proposal-mobile-1x.png) no-repeat
       center/contain;
-    min-height: 496px;
-    padding: 0 36px;
     display: flex;
     justify-content: center;
+    min-height: 496px;
+    padding: 0 36px;
   }
 
   .proposal__wrap {
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 50%;
     width: 20px;
     height: 20px;
+    border-radius: 50%;
     background-color: var(--color-green);
   }
 
@@ -201,16 +200,16 @@
   }
 
   .proposal__tittle {
-    font-size: 20px;
     font-weight: 700;
+    font-size: 20px;
     line-height: 1.2;
     letter-spacing: -0.02em;
     color: var(--color-black);
   }
 
   .proposal__item-text {
-    font-size: 14px;
     font-weight: 700;
+    font-size: 14px;
     line-height: 1.4;
     letter-spacing: -0.02em;
     width: 227px;
@@ -220,7 +219,7 @@
   .proposal__list {
     display: flex;
     flex-direction: column;
-    row-gap: 16px;
+    gap: 16px;
     margin-bottom: 20px;
   }
 
@@ -228,12 +227,12 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    column-gap: 8px;
+    gap: 8px;
   }
 
   .proposal__tittle {
-    font-size: 20px;
     font-weight: 700;
+    font-size: 20px;
     line-height: 1.2;
     letter-spacing: -0.02em;
     margin-bottom: 20px;
@@ -243,11 +242,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 12px;
-    padding: 14px 0;
-    font-size: 14px;
     font-weight: 700;
+    font-size: 14px;
     line-height: 1.7;
+    padding: 14px 0;
+    border-radius: 12px;
     color: var(--color-white);
     background-color: var(--color-green);
     transition: background-color var(--transition-dur-and-func);
@@ -270,19 +269,20 @@
 
 @media screen and (min-width: 768px) {
   .proposal__container {
-    max-width: 704px;
     margin: 0 auto;
     padding-top: 64px;
     padding-bottom: 30px;
     border-radius: 30px;
+    max-width: 704px;
   }
 
   .proposal__wrapper {
     max-width: 448px;
   }
+
   .proposal__heading {
-    font-size: 60px;
     font-weight: 700;
+    font-size: 60px;
     line-height: 1.2;
     margin-bottom: 33px;
     padding-left: 32px;
@@ -290,8 +290,8 @@
   }
 
   .proposal__heading-current {
-    font-size: 60px;
     font-weight: 700;
+    font-size: 60px;
     line-height: 1.2;
     color: var(--color-green-pseudo);
   }
@@ -299,11 +299,11 @@
   .proposal__box {
     background: url(../../img/bg-proposal-tablet-1x.png) no-repeat center/auto;
     background-position: calc(50% + 5px) center;
-    min-height: 607px;
-    padding-left: 50px;
     display: flex;
     justify-content: start;
     align-items: center;
+    min-height: 607px;
+    padding-left: 50px;
     position: relative;
   }
 
@@ -312,7 +312,7 @@
     align-items: start;
     justify-content: center;
     flex-direction: column;
-    row-gap: 16px;
+    gap: 16px;
     margin-bottom: 32px;
   }
 
@@ -340,33 +340,32 @@
   }
 
   .proposal__tittle {
-    color: var(--color-black);
-    font-size: 40px;
     font-weight: 700;
+    font-size: 40px;
     line-height: 1.2;
     letter-spacing: -0.02em;
     margin-bottom: 32px;
+    color: var(--color-black);
   }
 
   .proposal__item-text {
-    color: var(--color-black);
-    font-size: 20px;
     font-weight: 700;
+    font-size: 20px;
     line-height: 1.2;
     letter-spacing: -0.02em;
+    color: var(--color-black);
   }
 
   .proposal__button {
-    max-width: 306px;
     display: flex;
     justify-content: center;
     align-items: center;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.5;
     border-radius: 12px;
     padding: 16px 0;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 1.5;
+    max-width: 306px;
     color: var(--color-white);
     background-color: var(--color-green);
     transition: background-color var(--transition-dur-and-func);
@@ -395,9 +394,9 @@
 @media screen and (min-width: 1280px) {
   .proposal__container {
     margin: 0 auto;
-    max-width: 1152px;
     padding-top: 64px;
     padding-bottom: 69px;
+    max-width: 1152px;
   }
 
   .proposal__wrapper {
@@ -406,31 +405,31 @@
   }
 
   .proposal__heading {
-    width: 830px;
-    font-size: 60px;
     font-weight: 700;
+    font-size: 60px;
     line-height: 1.2;
     margin-bottom: 72px;
     padding-left: 64px;
+    width: 830px;
     color: var(--color-white);
   }
 
   .proposal__heading-current {
-    font-size: 60px;
     font-weight: 700;
+    font-size: 60px;
     line-height: 1.2;
     color: var(--color-green-pseudo);
   }
 
   .proposal__box {
     background: url(../../img/bg-proposal-desktop-1x.png) no-repeat center/cover;
-    min-height: 604px;
-    max-width: 1104px;
-    padding-left: 105px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 0 auto;
+    padding-left: 105px;
+    min-height: 604px;
+    max-width: 1104px;
     position: relative;
   }
 
@@ -439,7 +438,7 @@
     align-items: start;
     justify-content: center;
     flex-direction: column;
-    row-gap: 16px;
+    gap: 16px;
     margin-bottom: 39px;
   }
 
@@ -447,7 +446,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    column-gap: 20px;
+    gap: 20px;
   }
 
   .proposal__wrap {
@@ -467,35 +466,34 @@
   }
 
   .proposal__tittle {
-    color: var(--color-black);
-    font-size: 40px;
     font-weight: 700;
+    font-size: 40px;
     line-height: 1.2;
     letter-spacing: -0.02em;
     margin-bottom: 42px;
+    color: var(--color-black);
   }
 
   .proposal__item-text {
-    color: var(--color-black);
-    font-size: 20px;
     font-weight: 700;
+    font-size: 20px;
     line-height: 1.2;
     letter-spacing: -0.02em;
+    color: var(--color-black);
   }
 
   .proposal__button {
-    max-width: 306px;
     display: flex;
     justify-content: center;
     align-items: center;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.5;
     border-radius: 12px;
     padding: 16px 0;
+    max-width: 306px;
     color: var(--color-white);
     background-color: var(--color-green);
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 1.5;
     transition: background-color var(--transition-dur-and-func);
   }
 
