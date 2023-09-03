@@ -2,39 +2,36 @@
 
 # Development team :
 
-- Viktor Svertoka **Team Lead** development and design of the section
-  **Reviews**
+- Viktor Svertoka **Team Lead** development of the section **Reviews**
   [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ViktorSvertoka)
 
-- Andrew Motko **Scrum Master** development and design of the section **Header**
+- Andrew Motko **Scrum Master** development of the section **Header**
   [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AM1007)
 
-- Lesia Soloviova **Front End Developer** development and design of the section
-  **Leave an application**
+- Lesia Soloviova **Front End Developer** development of the section **Leave an
+  application**
   [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/LesiaUKR)
 
-- Alina Riabova **Front End Developer** development and design of the section
-  **Hero**
+- Alina Riabova **Front End Developer** development of the section **Hero**
   [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AlinaRyabova)
 
-- Svitlana Savchenko **Front End Developer** development and design of the
-  section **Footer**
+- Svitlana Savchenko **Front End Developer** development of the section
+  **Footer**
   [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/SvitlanaSavchenko)
 
-- Tetiana Zorii **Front End Developer** development and design of the section
-  **Proposal to leave an application**
+- Tetiana Zorii **Front End Developer** development of the section **Proposal to
+  leave an application**
   [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/TiZorii)
 
-- Vadym Andriushchenko **Front End Developer** development and design of the
-  section **Our teachers**
+- Vadym Andriushchenko **Front End Developer** development of the section **Our
+  teachers**
   [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Vademandr)
 
-- Yuliia Nazymko **Front End Developer** development and design of the section
-  **About us**
+- Yuliia Nazymko **Front End Developer** development of the section **About us**
   [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/YNazymko12)
 
-- Yevhenii Datsenko **Front End Developer** development and design of the
-  section **Our lessons**
+- Yevhenii Datsenko **Front End Developer** development of the section **Our
+  lessons**
   [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/yevheniidatsenko)
 
 # Presentation
