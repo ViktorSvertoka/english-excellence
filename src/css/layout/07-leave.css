@@ -394,4 +394,7 @@
   border-color: var(--color-invalid);
 }
 
-.leave__form-input:not(.invalid):hover,.leave__form-input:not(.invalid):focus {  border-color: var(--color-green);}
+.leave__form-input:not(.invalid):hover,
+.leave__form-input:not(.invalid):focus {  
+  border-color: var(--color-green);
+}
