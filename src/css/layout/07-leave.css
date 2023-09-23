@@ -104,8 +104,8 @@
   transition: border-color var(--transition-dur-and-func);
 }
 
-.leave__form-input:hover,
-.leave__form-input:focus {
+.leave__form-input:not(.invalid):hover,
+.leave__form-input:not(.invalid):focus {  
   border-color: var(--color-green);
 }
 
@@ -403,3 +403,5 @@
 .invalid {
   border-color: var(--color-invalid);
 }
+
+
