@@ -9,10 +9,6 @@ p {
   margin: 0;
 }
 
-p:last-child {
-  margin-bottom: 0;
-}
-
 ul,
 ol {
   margin: 0;

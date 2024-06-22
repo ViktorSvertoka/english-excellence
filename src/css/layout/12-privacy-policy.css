@@ -1,0 +1,122 @@
+.privacy__backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+  z-index: 998;
+  padding: 15px;
+  background-color: rgba(0, 0, 0, 0.7);
+  visibility: visible;
+  opacity: 1;
+}
+
+.is-hidden {
+  visibility: hidden;
+  pointer-events: none;
+  opacity: 0;
+}
+
+.is-hidden .privacy__wrapper {
+  visibility: hidden;
+  pointer-events: none;
+  opacity: 0.3;
+  transform: translate(-75%, -90%) scale(3);
+}
+
+.privacy__wrapper {
+  position: relative;
+  z-index: 999;
+  width: 320px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 25px 15px 20px;
+  visibility: visible;
+  opacity: 1;
+  background-color: var(--color-white);
+  border-radius: 10px;
+  box-shadow: 0 28px 42px rgba(0, 0, 0, 0.38), 0 20px 20px rgba(0, 0, 0, 0.33);
+}
+
+@media screen and (min-width: 768px) {
+  .privacy__wrapper {
+    width: 580px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .privacy__wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(1);
+    width: 1200px;
+    padding: 30px;
+  }
+}
+
+.privacy__modal-close-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 0px;
+  border: none;
+  background-color: transparent;
+  border-radius: 50%;
+  cursor: pointer;
+  stroke: var(--color-black);
+}
+
+@media screen and (min-width: 768px) {
+  .privacy__modal-close-btn {
+    top: 20px;
+    right: 20px;
+  }
+}
+
+.privacy__modal-close-btn:hover {
+  stroke: var(--color-green);
+}
+
+.privacy__modal-close-icon {
+  fill: currentColor;
+}
+
+.privacy__title {
+  margin-bottom: 16px;
+  text-align: center;
+  font-size: 32px;
+  line-height: 1.13;
+  letter-spacing: -0.02em;
+  color: var(--color-black);
+}
+
+.privacy__inner {
+  position: relative;
+}
+
+.privacy__inner::after {
+  position: absolute;
+  bottom: 4px;
+  left: 0;
+  content: '';
+  z-index: -1;
+  width: 88px;
+  height: 12px;
+  border-radius: 8px;
+  background-color: var(--color-green-pseudo);
+}
+
+.privacy__subtitle {
+  font-weight: 600px;
+  margin-bottom: 12px;
+}
+
+.privacy__text {
+  color: rgba(18, 20, 23, 0.5);
+  margin-bottom: 12px;
+}
