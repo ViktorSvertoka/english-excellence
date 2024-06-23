@@ -222,15 +222,7 @@
   }
 }
 
-.footer-text__privacy {
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 1.29;
-  letter-spacing: -0.018;
-  color: rgba(255, 255, 255, 0.6);
-}
-
-.footer-text__terms {
+.footer__text {
   font-size: 14px;
   font-weight: 400;
   line-height: 1.29;

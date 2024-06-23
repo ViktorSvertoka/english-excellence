@@ -1,4 +1,4 @@
-const privacyLink = document.querySelector('.footer-text__privacy');
+const privacyLink = document.querySelector('.footer__text--privacy');
 const privacyBackdrop = document.querySelector('.privacy__backdrop');
 const privacyCloseBtn = document.querySelector('.privacy__modal-close-btn');
 
